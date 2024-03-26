@@ -1,4 +1,4 @@
-// Padded and checksummed version of: H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: H:/Metropolia/IOT/EmbeddedOriginal/Lab1/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

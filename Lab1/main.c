@@ -11,6 +11,7 @@ int main() {
     const uint button_dim_up = 9;
     bool led_toggle = true;
     bool button_pressed = false;
+    int led_brightness = 500;
 
     uint slice_led1 = pwm_gpio_to_slice_num(20);
     uint slice_led2 = pwm_gpio_to_slice_num(21);
@@ -44,41 +45,69 @@ int main() {
     pwm_set_enabled(slice_led2, true);
     pwm_set_enabled(slice_led3, true);
 
-    gpio_init(button_dim_down); // Initialize the GPIO pins before setting direction
+    gpio_init(button_dim_down);
     gpio_init(button_dim_up);
     gpio_init(button_toggle);
 
-    gpio_pull_up(button_dim_down); // Pull up the GPIO pins
+    gpio_pull_up(button_dim_down);
     gpio_pull_up(button_dim_up);
     gpio_pull_up(button_toggle);
 
-    gpio_set_dir(button_dim_down, GPIO_IN); // Set the GPIO pins as inputs
+    gpio_set_dir(button_dim_down, GPIO_IN);
     gpio_set_dir(button_dim_up, GPIO_IN);
     gpio_set_dir(button_toggle, GPIO_IN);
     stdio_init_all();
 
     while(1) {
-        if (!gpio_get(button_dim_down)) {
-            printf("Dimming down...\n");
+        if (!gpio_get(button_dim_up)) {
+            printf("Dimming up...\n");
+
+            if (led_brightness < 1000) {
+                led_brightness += 30;
+            }
+
+            pwm_set_chan_level(slice_led1, PWM_CHAN_A, led_brightness);
+            pwm_set_chan_level(slice_led2, PWM_CHAN_A, led_brightness);
+            pwm_set_chan_level(slice_led3, PWM_CHAN_A, led_brightness);
         }
-        else if (!gpio_get(button_dim_up)) {
-            printf("Dimming up... \n");
+
+        else if (!gpio_get(button_dim_down)) {
+            printf("Dimming down...\n");
+            if (led_brightness >= 30) {
+                led_brightness -= 30;
+            }
+            else {
+                led_brightness = 0;
+            }
+
+            pwm_set_chan_level(slice_led1, PWM_CHAN_A, led_brightness);
+            pwm_set_chan_level(slice_led2, PWM_CHAN_A, led_brightness);
+            pwm_set_chan_level(slice_led3, PWM_CHAN_A, led_brightness);
         }
         else if (!gpio_get(button_toggle) && !button_pressed) {
             button_pressed = true;
-            if (!led_toggle) {
-                printf("Leds on...\n");
+
+            if (led_toggle && led_brightness == 0) {
                 pwm_set_chan_level(slice_led1, PWM_CHAN_A, 500);
                 pwm_set_chan_level(slice_led2, PWM_CHAN_A, 500);
                 pwm_set_chan_level(slice_led3, PWM_CHAN_A, 500);
-                led_toggle = true;
+                led_brightness = 500;
             }
             else {
-                printf("Leds off...\n");
-                led_toggle = false;
-                pwm_set_chan_level(slice_led1, PWM_CHAN_A, 0);
-                pwm_set_chan_level(slice_led2, PWM_CHAN_A, 0);
-                pwm_set_chan_level(slice_led3, PWM_CHAN_A, 0);
+                if (!led_toggle) {
+                    printf("Leds on...\n");
+                    pwm_set_chan_level(slice_led1, PWM_CHAN_A, 500);
+                    pwm_set_chan_level(slice_led2, PWM_CHAN_A, 500);
+                    pwm_set_chan_level(slice_led3, PWM_CHAN_A, 500);
+                    led_toggle = true;
+                }
+                else {
+                    printf("Leds off...\n");
+                    led_toggle = false;
+                    pwm_set_chan_level(slice_led1, PWM_CHAN_A, 0);
+                    pwm_set_chan_level(slice_led2, PWM_CHAN_A, 0);
+                    pwm_set_chan_level(slice_led3, PWM_CHAN_A, 0);
+                }
             }
         }
         else if (gpio_get(button_toggle) && button_pressed) {
