@@ -1,3 +1,2 @@
 # Embedded
-# Using Raspberry pi PICO
-# 
+Using Raspberry pi PICO
