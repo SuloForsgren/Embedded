@@ -195,7 +195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "h:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug"
+			"value" : "h:/Metropolia/IOT/Embedded/Lab2/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "H:/Metropolia/IOT/Embedded/Lab2/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -743,7 +743,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "H:/Metropolia/IOT/Embedded/Lab1"
+			"value" : "H:/Metropolia/IOT/Embedded/Lab2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -755,7 +755,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/blink"
+			"value" : "C:/Program Files (x86)/pwm"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1479,7 +1479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : " H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/cmsis H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2040/hardware_regs H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/cmsis H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2040/hardware_regs H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/cmsis H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2040/hardware_regs H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/cmsis H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2040/hardware_regs"
+			"value" : " H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/cmsis H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2040/hardware_regs"
 		},
 		{
 			"name" : "PICO_DOXYGEN_PATHS",
@@ -1746,42 +1746,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "blink_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug"
-		},
-		{
-			"name" : "blink_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "blink_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "H:/Metropolia/IOT/Embedded/Lab1"
-		},
-		{
 			"name" : "pico-sdk-tools_DIR",
 			"properties" : 
 			[
@@ -1803,7 +1767,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/pico-sdk"
+			"value" : "H:/Metropolia/IOT/Embedded/Lab2/cmake-build-debug/pico-sdk"
 		},
 		{
 			"name" : "pico_sdk_IS_TOP_LEVEL",
@@ -1839,7 +1803,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug"
+			"value" : "H:/Metropolia/IOT/Embedded/Lab2/cmake-build-debug"
 		},
 		{
 			"name" : "pwm_IS_TOP_LEVEL",
@@ -1863,7 +1827,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "H:/Metropolia/IOT/Embedded/Lab1"
+			"value" : "H:/Metropolia/IOT/Embedded/Lab2"
 		}
 	],
 	"kind" : "cache",

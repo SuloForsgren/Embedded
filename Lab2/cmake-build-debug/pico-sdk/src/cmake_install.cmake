@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/blink")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pwm")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/pico-sdk/src/common/cmake_install.cmake")
-  include("H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/pico-sdk/src/rp2_common/cmake_install.cmake")
-  include("H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/pico-sdk/src/rp2040/cmake_install.cmake")
+  include("H:/Metropolia/IOT/Embedded/Lab2/cmake-build-debug/pico-sdk/src/common/cmake_install.cmake")
+  include("H:/Metropolia/IOT/Embedded/Lab2/cmake-build-debug/pico-sdk/src/rp2_common/cmake_install.cmake")
+  include("H:/Metropolia/IOT/Embedded/Lab2/cmake-build-debug/pico-sdk/src/rp2040/cmake_install.cmake")
 
 endif()
 

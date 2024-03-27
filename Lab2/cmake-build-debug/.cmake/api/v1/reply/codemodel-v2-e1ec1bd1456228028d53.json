@@ -1125,7 +1125,7 @@
 				{
 					"directoryIndex" : 43,
 					"id" : "bs2_default::@bc554eaed616d198a22d",
-					"jsonFile" : "target-bs2_default-Debug-06480c21f4143a2eff3b.json",
+					"jsonFile" : "target-bs2_default-Debug-2f56fa917c4680d59ed8.json",
 					"name" : "bs2_default",
 					"projectIndex" : 1
 				},
@@ -1153,7 +1153,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "pwm::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-pwm-Debug-ebd730d3f9afafe338bc.json",
+					"jsonFile" : "target-pwm-Debug-30d35d5735b7d78cbf50.json",
 					"name" : "pwm",
 					"projectIndex" : 0
 				},
@@ -1177,8 +1177,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug",
-		"source" : "H:/Metropolia/IOT/Embedded/Lab1"
+		"build" : "H:/Metropolia/IOT/Embedded/Lab2/cmake-build-debug",
+		"source" : "H:/Metropolia/IOT/Embedded/Lab2"
 	},
 	"version" : 
 	{
