@@ -1083,9 +1083,9 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_70.1
                 0x00000000        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccKvH9LW.o
- .data          0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccKvH9LW.o
- .bss           0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccKvH9LW.o
+ .text          0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccalzG9B.o
+ .data          0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccalzG9B.o
+ .bss           0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccalzG9B.o
  .data          0x00000000        0x0 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1301,11 +1301,11 @@ LOAD h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../li
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\sulof\AppData\Local\Temp\ccKvH9LW.o
+ .boot2         0x10000000      0x100 C:\Users\sulof\AppData\Local\Temp\ccalzG9B.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x4210
+.text           0x10000100     0x4228
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1368,380 +1368,380 @@ LOAD h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../li
  .text          0x100002bc       0x48 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.pwm_init
                 0x10000304       0x30 CMakeFiles/pwm.dir/main.c.obj
- .text.main     0x10000334      0x2ac CMakeFiles/pwm.dir/main.c.obj
+ .text.main     0x10000334      0x2c4 CMakeFiles/pwm.dir/main.c.obj
                 0x10000334                main
  .text.gpio_set_function
-                0x100005e0       0x30 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100005e0                gpio_set_function
+                0x100005f8       0x30 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100005f8                gpio_set_function
  .text.gpio_set_pulls
-                0x10000610       0x34 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000610                gpio_set_pulls
+                0x10000628       0x34 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000628                gpio_set_pulls
  .text.gpio_init
-                0x10000644       0x16 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000644                gpio_init
- *fill*         0x1000065a        0x2 
+                0x1000065c       0x16 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000065c                gpio_init
+ *fill*         0x10000672        0x2 
  .text.running_on_fpga
-                0x1000065c       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x1000065c                running_on_fpga
+                0x10000674       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000674                running_on_fpga
  .text.hw_claim_lock
-                0x10000670       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000670                hw_claim_lock
+                0x10000688       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000688                hw_claim_lock
  .text.hw_claim_unlock
-                0x10000688       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000688                hw_claim_unlock
+                0x100006a0       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100006a0                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x1000069c       0x32 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x1000069c                hw_claim_or_assert
- *fill*         0x100006ce        0x2 
+                0x100006b4       0x32 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100006b4                hw_claim_or_assert
+ *fill*         0x100006e6        0x2 
  .text.spin_locks_reset
-                0x100006d0       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100006d0                spin_locks_reset
+                0x100006e8       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100006e8                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x100006f0       0x1c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100006f0                next_striped_spin_lock_num
+                0x10000708       0x1c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000708                next_striped_spin_lock_num
  .text.set_raw_irq_handler_and_unlock
-                0x1000070c       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000724       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.make_branch
-                0x10000734       0x48 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000074c       0x48 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.insert_branch_and_link
-                0x1000077c       0x40 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000794       0x40 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_is_enabled
-                0x100007bc       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100007bc                irq_is_enabled
+                0x100007d4       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100007d4                irq_is_enabled
  .text.irq_set_mask_enabled
-                0x100007d4       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100007d4                irq_set_mask_enabled
+                0x100007ec       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100007ec                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x100007f4        0xe CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100007f4                irq_set_enabled
- *fill*         0x10000802        0x2 
+                0x1000080c        0xe CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000080c                irq_set_enabled
+ *fill*         0x1000081a        0x2 
  .text.irq_get_vtable_handler
-                0x10000804       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000804                irq_get_vtable_handler
+                0x1000081c       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000081c                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000814       0x54 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000814                irq_set_exclusive_handler
+                0x1000082c       0x54 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000082c                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x10000868      0x1ac CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000868                irq_remove_handler
+                0x10000880      0x1ac CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000880                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000a14       0xf0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a14                irq_add_tail_to_free_list
+                0x10000a2c       0xf0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a2c                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000b04       0x1c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000b04                irq_init_priorities
+                0x10000b1c       0x1c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000b1c                irq_init_priorities
  .text.lock_init
-                0x10000b20       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000b20                lock_init
+                0x10000b38       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10000b38                lock_init
  .text.mutex_init
-                0x10000b30       0x1a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000b30                mutex_init
+                0x10000b48       0x1a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000b48                mutex_init
  .text.recursive_mutex_init
-                0x10000b4a       0x1e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000b4a                recursive_mutex_init
+                0x10000b62       0x1e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000b62                recursive_mutex_init
  .text.alarm_pool_post_alloc_init
-                0x10000b68       0x40 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b80       0x40 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until_callback
-                0x10000ba8       0x30 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000bc0       0x30 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x10000bd8       0x7c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000bd8                timer_pool_entry_comparator
+                0x10000bf0       0x7c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000bf0                timer_pool_entry_comparator
  .text.ph_add_child_node
-                0x10000c54       0xa4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c6c       0xa4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .text.ph_merge_nodes
-                0x10000cf8       0x3e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10000d36        0x2 
+                0x10000d10       0x3e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10000d4e        0x2 
  .text.add_alarm_under_lock
-                0x10000d38      0x174 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000d50      0x174 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000eac      0x33c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ec4      0x33c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x100011e8       0x40 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x100011e8                alarm_pool_init_default
+                0x10001200       0x40 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001200                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10001228       0x2c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001228                alarm_pool_get_default
+                0x10001240       0x2c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001240                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10001254      0x168 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001254                alarm_pool_add_alarm_at
+                0x1000126c      0x168 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000126c                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x100013bc       0xf0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x100013bc                alarm_pool_cancel_alarm
+                0x100013d4       0xf0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x100013d4                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x100014ac       0xfc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x100014ac                sleep_until
+                0x100014c4       0xfc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x100014c4                sleep_until
  .text.sleep_us
-                0x100015a8       0x58 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x100015a8                sleep_us
+                0x100015c0       0x58 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x100015c0                sleep_us
  .text.sleep_ms
-                0x10001600       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001600                sleep_ms
+                0x10001618       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001618                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10001614       0xac CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001614                best_effort_wfe_or_timeout
+                0x1000162c       0xac CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000162c                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x100016c0       0x90 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100016d8       0x90 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001750       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001750                hardware_alarm_claim
- .text.time_us_64
                 0x10001768       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001768                time_us_64
+                0x10001768                hardware_alarm_claim
+ .text.time_us_64
+                0x10001780       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001780                time_us_64
  .text.busy_wait_until
-                0x10001780       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001780                busy_wait_until
+                0x10001798       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001798                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x100017a8       0x90 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100017a8                hardware_alarm_set_callback
+                0x100017c0       0x90 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100017c0                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001838       0xe8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001838                hardware_alarm_set_target
+                0x10001850       0xe8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001850                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001920       0x40 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001920                hardware_alarm_cancel
+                0x10001938       0x40 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001938                hardware_alarm_cancel
  .text.ph_add_child_node
-                0x10001960       0xa4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001978       0xa4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x10001a04       0x3e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10001a42        0x2 
+                0x10001a1c       0x3e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10001a5a        0x2 
  .text.ph_clear
-                0x10001a44       0x70 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001a44                ph_clear
+                0x10001a5c       0x70 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001a5c                ph_clear
  .text.ph_post_alloc_init
-                0x10001ab4        0xe CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ab4                ph_post_alloc_init
- *fill*         0x10001ac2        0x2 
+                0x10001acc        0xe CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001acc                ph_post_alloc_init
+ *fill*         0x10001ada        0x2 
  .text.ph_merge_two_pass
-                0x10001ac4       0xa8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ac4                ph_merge_two_pass
+                0x10001adc       0xa8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001adc                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001b6c      0x128 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001b84      0x128 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001c94       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001c94                ph_remove_head
+                0x10001cac       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001cac                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001ca8       0xf8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ca8                ph_remove_and_free_node
+                0x10001cc0       0xf8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001cc0                ph_remove_and_free_node
  .text.uart_set_baudrate
-                0x10001da0       0x5c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001da0                uart_set_baudrate
+                0x10001db8       0x5c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001db8                uart_set_baudrate
  .text.uart_set_translate_crlf
-                0x10001dfc       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001dfc                uart_set_translate_crlf
+                0x10001e14       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001e14                uart_set_translate_crlf
  .text.uart_init
-                0x10001e24       0x80 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001e24                uart_init
+                0x10001e3c       0x80 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001e3c                uart_init
  .text.clock_configure
-                0x10001ea4      0x104 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001ea4                clock_configure
+                0x10001ebc      0x104 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001ebc                clock_configure
  .text.clocks_init
-                0x10001fa8      0x100 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001fa8                clocks_init
+                0x10001fc0      0x100 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001fc0                clocks_init
  .text.clock_get_hz
-                0x100020a8        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100020a8                clock_get_hz
+                0x100020c0        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100020c0                clock_get_hz
  .text.pll_init
-                0x100020b4      0x12c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x100020b4                pll_init
+                0x100020cc      0x12c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x100020cc                pll_init
  .text.watchdog_start_tick
-                0x100021e0       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x100021e0                watchdog_start_tick
+                0x100021f8       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100021f8                watchdog_start_tick
  .text.xosc_init
-                0x100021f0       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x100021f0                xosc_init
- .text._exit    0x10002218        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002218                _exit
- .text.exit     0x1000221c        0x6 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000221c                exit
- *fill*         0x10002222        0x2 
+                0x10002208       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002208                xosc_init
+ .text._exit    0x10002230        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002230                _exit
+ .text.exit     0x10002234        0x6 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002234                exit
+ *fill*         0x1000223a        0x2 
  .text.__assert_func
-                0x10002224       0x3c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002224                __assert_func
+                0x1000223c       0x3c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000223c                __assert_func
  .text.runtime_init
-                0x10002260       0xf8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002260                runtime_init
- .text.panic    0x10002358       0x30 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002358                panic
+                0x10002278       0xf8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002278                runtime_init
+ .text.panic    0x10002370       0x30 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002370                panic
  .text._out_null
-                0x10002388        0x2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100023a0        0x2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x1000238a        0xe CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x10002398       0x24 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100023a2        0xe CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x100023b0       0x24 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x100023bc       0xae CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100023d4       0xae CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x1000246a      0x112 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002482      0x112 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x1000257c       0xbc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002594       0xbc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x10002638       0xe2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x1000271a        0x2 
- .text._etoa    0x1000271c      0x414 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10002b30      0x354 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002650       0xe2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10002732        0x2 
+ .text._etoa    0x10002734      0x414 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002b48      0x354 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002e84      0x624 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002e9c      0x624 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x100034a8       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100034a8                vfctprintf
- .text          0x100034c8       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x100034c0       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100034c0                vfctprintf
+ .text          0x100034e0       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x100034d8       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100034d8                rom_func_lookup
+                0x100034f0       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100034f0                rom_func_lookup
  .text.rom_data_lookup
-                0x100034e8       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100034e8                rom_data_lookup
+                0x10003500       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003500                rom_data_lookup
  .text.rom_funcs_lookup
-                0x100034f8       0x36 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100034f8                rom_funcs_lookup
- *fill*         0x1000352e        0x2 
+                0x10003510       0x36 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003510                rom_funcs_lookup
+ *fill*         0x10003546        0x2 
  .text.__wrap___aeabi_idiv
-                0x10003530       0x50 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003530                __wrap___aeabi_idivmod
-                0x10003530                divmod_s32s32
-                0x10003530                div_s32s32
-                0x10003530                __wrap___aeabi_idiv
-                0x10003538                divmod_s32s32_unsafe
-                0x10003564                divmod_s32s32_savestate
+                0x10003548       0x50 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003548                __wrap___aeabi_idivmod
+                0x10003548                divmod_s32s32
+                0x10003548                div_s32s32
+                0x10003548                __wrap___aeabi_idiv
+                0x10003550                divmod_s32s32_unsafe
+                0x1000357c                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10003580       0x4c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003580                __wrap___aeabi_uidiv
-                0x10003580                __wrap___aeabi_uidivmod
-                0x10003580                div_u32u32
-                0x10003580                divmod_u32u32
-                0x10003588                divmod_u32u32_unsafe
-                0x100035b0                divmod_u32u32_savestate
+                0x10003598       0x4c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003598                __wrap___aeabi_uidiv
+                0x10003598                __wrap___aeabi_uidivmod
+                0x10003598                div_u32u32
+                0x10003598                divmod_u32u32
+                0x100035a0                divmod_u32u32_unsafe
+                0x100035c8                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x100035cc      0x424 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100035cc                div_s64s64
-                0x100035cc                divmod_s64s64
-                0x100035cc                __wrap___aeabi_ldivmod
-                0x100035fc                divmod_u64u64
-                0x100035fc                div_u64u64
-                0x100035fc                __wrap___aeabi_uldivmod
-                0x1000360c                divmod_u64u64_savestate
-                0x1000362c                divmod_s64s64_unsafe
-                0x100036b4                divmod_u64u64_unsafe
+                0x100035e4      0x424 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100035e4                div_s64s64
+                0x100035e4                divmod_s64s64
+                0x100035e4                __wrap___aeabi_ldivmod
+                0x10003614                divmod_u64u64
+                0x10003614                div_u64u64
+                0x10003614                __wrap___aeabi_uldivmod
+                0x10003624                divmod_u64u64_savestate
+                0x10003644                divmod_s64s64_unsafe
+                0x100036cc                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x100039f0       0x60 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039f0                __wrap___aeabi_drsub
-                0x100039f6                __wrap___aeabi_dsub
-                0x10003a00                __wrap___aeabi_dadd
-                0x10003a0a                __wrap___aeabi_ddiv
-                0x10003a3e                __wrap___aeabi_dmul
+                0x10003a08       0x60 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a08                __wrap___aeabi_drsub
+                0x10003a0e                __wrap___aeabi_dsub
+                0x10003a18                __wrap___aeabi_dadd
+                0x10003a22                __wrap___aeabi_ddiv
+                0x10003a56                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10003a50       0x6c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a50                __wrap___aeabi_cdrcmple
-                0x10003a60                __wrap___aeabi_cdcmpeq
-                0x10003a60                __wrap___aeabi_cdcmple
+                0x10003a68       0x6c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a68                __wrap___aeabi_cdrcmple
+                0x10003a78                __wrap___aeabi_cdcmpeq
+                0x10003a78                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10003abc        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003abc                __wrap___aeabi_dcmplt
+                0x10003ad4        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ad4                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10003ac8       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ac8                __wrap___aeabi_dcmple
+                0x10003ae0       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ae0                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10003ad8       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ad8                __wrap___aeabi_dcmpge
+                0x10003af0       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003af0                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003ae8        0xa CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ae8                __wrap___aeabi_dcmpgt
+                0x10003b00        0xa CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b00                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10003af2       0x1c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003af2                __wrap___aeabi_dcmpun
- *fill*         0x10003b0e        0x2 
+                0x10003b0a       0x1c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b0a                __wrap___aeabi_dcmpun
+ *fill*         0x10003b26        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003b10       0x38 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b10                __wrap___aeabi_ui2d
-                0x10003b18                __wrap___aeabi_i2d
+                0x10003b28       0x38 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b28                __wrap___aeabi_ui2d
+                0x10003b30                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10003b48       0x48 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b48                double2int_z
-                0x10003b48                __wrap___aeabi_d2iz
+                0x10003b60       0x48 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b60                double2int_z
+                0x10003b60                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10003b90       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b90                __wrap___aeabi_d2uiz
-                0x10003b90                double2uint
+                0x10003ba8       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ba8                __wrap___aeabi_d2uiz
+                0x10003ba8                double2uint
  .text.missing_double_func_shim
-                0x10003ba0        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003bb8        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x10003bac       0xcc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003bac                __aeabi_double_init
+                0x10003bc4       0xcc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003bc4                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003c78       0x34 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003c78                double_table_shim_on_use_helper
+                0x10003c90       0x34 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003c90                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10003cac       0x32 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10003cac                __wrap___aeabi_lmul
- *fill*         0x10003cde        0x2 
+                0x10003cc4       0x32 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10003cc4                __wrap___aeabi_lmul
+ *fill*         0x10003cf6        0x2 
  .text.missing_float_func_shim
-                0x10003ce0        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10003cf8        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x10003cec       0x88 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10003cec                __aeabi_float_init
- .text          0x10003d74       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003d74                __aeabi_mem_init
- .text.memcpy   0x10003d84        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003d84                __wrap_memcpy
-                0x10003d84                __wrap___aeabi_memcpy
+                0x10003d04       0x88 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10003d04                __aeabi_float_init
+ .text          0x10003d8c       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003d8c                __aeabi_mem_init
+ .text.memcpy   0x10003d9c        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003d9c                __wrap_memcpy
+                0x10003d9c                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10003d90        0xe CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10003d9e        0x2 
+                0x10003da8        0xe CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10003db6        0x2 
  .text.stdio_out_chars_crlf
-                0x10003da0       0x80 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003db8       0x80 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x10003e20       0x44 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e38       0x44 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10003e64       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e7c       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x10003e84       0x5c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003e84                stdout_serialize_begin
+                0x10003e9c       0x5c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e9c                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x10003ee0       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003ee0                stdout_serialize_end
+                0x10003ef8       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003ef8                stdout_serialize_end
  .text.stdio_put_string
-                0x10003ef0       0x98 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f08       0x98 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_driver_enabled
-                0x10003f88       0x2c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003f88                stdio_set_driver_enabled
+                0x10003fa0       0x2c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003fa0                stdio_set_driver_enabled
  .text.stdio_flush
-                0x10003fb4       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003fb4                stdio_flush
+                0x10003fcc       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003fcc                stdio_flush
  .text.__wrap_puts
-                0x10003fd4       0x1e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003fd4                __wrap_puts
- *fill*         0x10003ff2        0x2 
+                0x10003fec       0x1e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003fec                __wrap_puts
+ *fill*         0x1000400a        0x2 
  .text.__wrap_vprintf
-                0x10003ff4       0x40 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003ff4                __wrap_vprintf
+                0x1000400c       0x40 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000400c                __wrap_vprintf
  .text.__wrap_printf
-                0x10004034       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004034                __wrap_printf
+                0x1000404c       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000404c                __wrap_printf
  .text.stdio_init_all
-                0x1000404c        0xa CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000404c                stdio_init_all
- *fill*         0x10004056        0x2 
+                0x10004064        0xa CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004064                stdio_init_all
+ *fill*         0x1000406e        0x2 
  .text.stdio_uart_out_chars
-                0x10004058       0x74 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004070       0x74 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x100040cc       0x80 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100040cc                stdio_uart_in_chars
+                0x100040e4       0x80 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100040e4                stdio_uart_in_chars
  .text.on_uart_rx
-                0x1000414c       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004164       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x10004174       0x8c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000418c       0x8c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init_full
-                0x10004200       0x44 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004200                stdio_uart_init_full
+                0x10004218       0x44 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004218                stdio_uart_init_full
  .text.stdio_uart_init
-                0x10004244       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004244                stdio_uart_init
- .text.strlen   0x1000426c       0x5c h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
-                0x1000426c                strlen
+                0x1000425c       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000425c                stdio_uart_init
+ .text.strlen   0x10004284       0x5c h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+                0x10004284                strlen
  *(.fini)
- .fini          0x100042c8        0x4 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x100042c8                _fini
- *fill*         0x100042cc        0x4 
- .fini.__stub   0x100042d0       0x40 linker stubs
+ .fini          0x100042e0        0x4 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x100042e0                _fini
+ *fill*         0x100042e4        0x4 
+ .fini.__stub   0x100042e8       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1753,261 +1753,261 @@ LOAD h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../li
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10004310        0x0 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10004310                . = ALIGN (0x4)
+ .eh_frame      0x10004328        0x0 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10004328                . = ALIGN (0x4)
 
-.glue_7         0x10004310        0x0
- .glue_7        0x10004310        0x0 linker stubs
+.glue_7         0x10004328        0x0
+ .glue_7        0x10004328        0x0 linker stubs
 
-.glue_7t        0x10004310        0x0
- .glue_7t       0x10004310        0x0 linker stubs
+.glue_7t        0x10004328        0x0
+ .glue_7t       0x10004328        0x0 linker stubs
 
-.vfp11_veneer   0x10004310        0x0
- .vfp11_veneer  0x10004310        0x0 linker stubs
+.vfp11_veneer   0x10004328        0x0
+ .vfp11_veneer  0x10004328        0x0 linker stubs
 
-.v4_bx          0x10004310        0x0
- .v4_bx         0x10004310        0x0 linker stubs
+.v4_bx          0x10004328        0x0
+ .v4_bx         0x10004328        0x0 linker stubs
 
-.iplt           0x10004310        0x0
- .iplt          0x10004310        0x0 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10004328        0x0
+ .iplt          0x10004328        0x0 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10004310     0x10e0
+.rodata         0x10004328     0x10e0
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10004310       0x38 CMakeFiles/pwm.dir/main.c.obj
+                0x10004328       0x38 CMakeFiles/pwm.dir/main.c.obj
  .rodata.make_branch.str1.4
-                0x10004348       0x8b CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100043d3        0x1 
+                0x10004360       0x8b CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100043eb        0x1 
  .rodata.insert_branch_and_link.str1.4
-                0x100043d4       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100043ec       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.irq_set_exclusive_handler.str1.4
-                0x100043e4       0x36 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000441a        0x2 
+                0x100043fc       0x36 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004432        0x2 
  .rodata.irq_add_shared_handler.str1.4
-                0x1000441c       0xd9 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100044f5        0x3 
+                0x10004434       0xd9 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000450d        0x3 
  .rodata.irq_remove_handler.str1.4
-                0x100044f8       0x3a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004532        0x2 
+                0x10004510       0x3a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000454a        0x2 
  .rodata.irq_add_tail_to_free_list.str1.4
-                0x10004534       0x3a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000456e        0x2 
+                0x1000454c       0x3a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004586        0x2 
  .rodata.__func__.0
-                0x10004570       0x1a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000458a        0x2 
+                0x10004588       0x1a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100045a2        0x2 
  .rodata.__func__.1
-                0x1000458c       0x17 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100045a3        0x1 
+                0x100045a4       0x17 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100045bb        0x1 
  .rodata.__func__.2
-                0x100045a4       0x13 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100045b7        0x1 
+                0x100045bc       0x13 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100045cf        0x1 
  .rodata.__func__.3
-                0x100045b8        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100045d0        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4
-                0x100045c4        0xf CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100045d3        0x1 
+                0x100045dc        0xf CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100045eb        0x1 
  .rodata.__func__.6
-                0x100045d4       0x1a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100045ee        0x2 
+                0x100045ec       0x1a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004606        0x2 
  .rodata.str1.4
-                0x100045f0      0x129 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x10004719        0x3 
+                0x10004608      0x129 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x10004731        0x3 
  .rodata.__func__.1
-                0x1000471c        0xb CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x10004727        0x1 
+                0x10004734        0xb CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x1000473f        0x1 
  .rodata.__func__.3
-                0x10004728       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10004740       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.repeating_timer_callback.str1.4
-                0x10004740       0x69 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100047a9        0x3 
+                0x10004758       0x69 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100047c1        0x3 
  .rodata.timer_pool_entry_comparator.str1.4
-                0x100047ac       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100047ce        0x2 
+                0x100047c4       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100047e6        0x2 
  .rodata.ph_add_child_node.str1.4
-                0x100047d0       0xb2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004882        0x2 
+                0x100047e8       0xb2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000489a        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x10004884       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000489c       0x28 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
                                  0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x100048ac       0x98 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x100048c4       0x98 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
                                 0x118 (size before relaxing)
  .rodata.alarm_pool_get_default.str1.4
-                0x10004944       0x21 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004965        0x3 
+                0x1000495c       0x21 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000497d        0x3 
  .rodata.alarm_pool_cancel_alarm.str1.4
-                0x10004968       0x27 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1000498f        0x1 
+                0x10004980       0x27 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100049a7        0x1 
  .rodata.sleep_until.str1.4
-                0x10004990       0x4d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100049dd        0x3 
+                0x100049a8       0x4d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100049f5        0x3 
  .rodata.__func__.1
-                0x100049e0       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x100049f8       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.10
-                0x100049f8       0x15 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a0d        0x3 
+                0x10004a10       0x15 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a25        0x3 
  .rodata.__func__.11
-                0x10004a10       0x1a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a2a        0x2 
+                0x10004a28       0x1a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a42        0x2 
  .rodata.__func__.12
-                0x10004a2c        0xa CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a36        0x2 
+                0x10004a44        0xa CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a4e        0x2 
  .rodata.__func__.3
-                0x10004a38       0x17 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a4f        0x1 
+                0x10004a50       0x17 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a67        0x1 
  .rodata.__func__.4
-                0x10004a50       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a62        0x2 
+                0x10004a68       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a7a        0x2 
  .rodata.__func__.5
-                0x10004a64        0xd CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a71        0x3 
+                0x10004a7c        0xd CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a89        0x3 
  .rodata.__func__.6
-                0x10004a74       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a86        0x2 
+                0x10004a8c       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a9e        0x2 
  .rodata.__func__.7
-                0x10004a88        0xf CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a97        0x1 
+                0x10004aa0        0xf CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004aaf        0x1 
  .rodata.__func__.8
-                0x10004a98        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10004ab0        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.9
-                0x10004aa4       0x15 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004ab9        0x3 
+                0x10004abc       0x15 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004ad1        0x3 
  .rodata.hardware_alarm_claim.str1.4
-                0x10004abc       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004ade        0x2 
+                0x10004ad4       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004af6        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x10004ae0       0x83 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004b63        0x1 
+                0x10004af8       0x83 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004b7b        0x1 
  .rodata.__func__.0
-                0x10004b64       0x1a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10004b7c       0x1a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x10004b7e       0xb2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004b7e        0x2 
+                0x10004b96       0xb2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004b96        0x2 
  .rodata.ph_remove_any_head.str1.4
-                0x10004b80       0xac CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004b98       0xac CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0xc0 (size before relaxing)
  .rodata.ph_remove_and_free_node.str1.4
-                0x10004c2c       0x1e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004c44       0x1e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0x26 (size before relaxing)
- *fill*         0x10004c4a        0x2 
+ *fill*         0x10004c62        0x2 
  .rodata.__func__.0
-                0x10004c4c       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004c64       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__func__.1
-                0x10004c64       0x13 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004c77        0x1 
+                0x10004c7c       0x13 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004c8f        0x1 
  .rodata.__func__.2
-                0x10004c78       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004c8a        0x2 
+                0x10004c90       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004ca2        0x2 
  .rodata.__func__.3
-                0x10004c8c        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004ca4        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.clock_configure.str1.4
-                0x10004c98       0x75 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- *fill*         0x10004d0d        0x3 
+                0x10004cb0       0x75 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ *fill*         0x10004d25        0x3 
  .rodata.__func__.1
-                0x10004d10       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10004d28       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.pll_init.str1.4
-                0x10004d20      0x13f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x10004e5f        0x1 
+                0x10004d38      0x13f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x10004e77        0x1 
  .rodata.__func__.0
-                0x10004e60        0x9 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x10004e69        0x3 
+                0x10004e78        0x9 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x10004e81        0x3 
  .rodata.__assert_func.str1.4
-                0x10004e6c       0x3f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004e84       0x3f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                  0x43 (size before relaxing)
- *fill*         0x10004eab        0x1 
+ *fill*         0x10004ec3        0x1 
  .rodata.runtime_init.str1.4
-                0x10004eac       0x7f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004f2b        0x1 
+                0x10004ec4       0x7f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10004f43        0x1 
  .rodata.panic.str1.4
-                0x10004f2c       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004f3e        0x2 
+                0x10004f44       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10004f56        0x2 
  .rodata.__func__.2
-                0x10004f40        0xd CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004f4d        0x3 
- .rodata._ftoa.str1.4
-                0x10004f50       0x15 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004f58        0xd CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  *fill*         0x10004f65        0x3 
+ .rodata._ftoa.str1.4
+                0x10004f68       0x15 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10004f7d        0x3 
  .rodata._vsnprintf
-                0x10004f68      0x1e0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004f80      0x1e0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x10005148       0x50 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10005160       0x50 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x10005198       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x100051b0       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x100051b0       0xc6 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- *fill*         0x10005276        0x2 
+                0x100051c8       0xc6 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ *fill*         0x1000528e        0x2 
  .rodata.__func__.0
-                0x10005278       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10005290       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x1000528c        0x1 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100052a4        0x1 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x1000528c       0x98 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100052a4       0x98 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .rodata.__func__.0
-                0x10005324       0x13 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x10005337        0x1 
+                0x1000533c       0x13 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x1000534f        0x1 
  .rodata.str1.4
-                0x10005338       0x38 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005350       0x38 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10005370        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .rodata.__bi_75
-                0x1000537c        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .rodata.__bi_81
                 0x10005388        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .rodata.__bi_75
+                0x10005394        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .rodata.__bi_81
+                0x100053a0        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.stdout_serialize_begin.str1.4
-                0x10005394       0x7f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100053ac       0x7f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__func__.3
-                0x10005394       0x15 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x100053a9        0x3 
+                0x100053ac       0x15 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100053c1        0x3 
  .rodata.crlf_str.2
-                0x100053ac        0x2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x100053ae        0x2 
+                0x100053c4        0x2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100053c6        0x2 
  .rodata.str1.4
-                0x100053b0       0x2c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100053c8       0x2c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_33.4
-                0x100053dc        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100053f4        0xc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_34.5
-                0x100053e8        0x8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100053f0                . = ALIGN (0x4)
+                0x10005400        0x8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005408                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100053f0                . = ALIGN (0x4)
+                0x10005408                . = ALIGN (0x4)
 
-.rel.dyn        0x100053f0        0x0
- .rel.iplt      0x100053f0        0x0 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x10005408        0x0
+ .rel.iplt      0x10005408        0x0 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100053f0                __exidx_start = .
+                0x10005408                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100053f0                __exidx_end = .
-                0x100053f0                . = ALIGN (0x4)
-                0x100053f0                __binary_info_start = .
+                0x10005408                __exidx_end = .
+                0x10005408                . = ALIGN (0x4)
+                0x10005408                __binary_info_start = .
 
-.binary_info    0x100053f0       0x24
+.binary_info    0x10005408       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x100053f0        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr30
-                0x100053f4        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr38
-                0x100053f8        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr44
-                0x100053fc        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr50
-                0x10005400        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr75
-                0x10005404        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr81
                 0x10005408        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr30
+                0x1000540c        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr38
+                0x10005410        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr44
+                0x10005414        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr50
+                0x10005418        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr75
+                0x1000541c        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr81
+                0x10005420        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr33
-                0x1000540c        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005424        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr34
-                0x10005410        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10005414                __binary_info_end = .
-                0x10005414                . = ALIGN (0x4)
-                0x10005414                __etext = .
+                0x10005428        0x4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000542c                __binary_info_end = .
+                0x1000542c                . = ALIGN (0x4)
+                0x1000542c                __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2016,7 +2016,7 @@ LOAD h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../li
                 0x20000000       0xc0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x244 load address 0x10005414
+.data           0x200000c0      0x244 load address 0x1000542c
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2101,27 +2101,27 @@ LOAD h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../li
                 0x20000304                . = ALIGN (0x4)
                 0x20000304                __data_end__ = .
 
-.igot.plt       0x20000304        0x0 load address 0x10005658
+.igot.plt       0x20000304        0x0 load address 0x10005670
  .igot.plt      0x20000304        0x0 h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000304        0x0 load address 0x10005658
+                0x20000304        0x0 load address 0x10005670
                 0x20000304                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10005658
+.scratch_x      0x20040000        0x0 load address 0x10005670
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x10005658                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10005670                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10005658
+.scratch_y      0x20041000        0x0 load address 0x10005670
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x10005658                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10005670                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000308      0x3d8
                 0x20000308                . = ALIGN (0x4)
@@ -2185,8 +2185,8 @@ LOAD h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../li
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10005658        0x0
-                0x10005658                __flash_binary_end = .
+.flash_end      0x10005670        0x0
+                0x10005670                __flash_binary_end = .
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2241,7 +2241,7 @@ LOAD CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk
 LOAD CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD C:\Users\sulof\AppData\Local\Temp\ccKvH9LW.o
+LOAD C:\Users\sulof\AppData\Local\Temp\ccalzG9B.o
 LOAD h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2332,7 +2332,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000570       0x2c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x0000059c       0x22 C:\Users\sulof\AppData\Local\Temp\ccKvH9LW.o
+                0x0000059c       0x22 C:\Users\sulof\AppData\Local\Temp\ccalzG9B.o
  .ARM.attributes
                 0x000005be       0x1e h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2365,98 +2365,98 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .comment       0x00000049       0x4a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_info     0x00000000    0x1704d
- .debug_info    0x00000000     0x1f8a CMakeFiles/pwm.dir/main.c.obj
- .debug_info    0x00001f8a     0x16d8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00003662      0x1e3 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x00003845      0x6bc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x00003f01      0x58e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x0000448f     0x1c9c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x0000612b      0x1a4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x000062cf     0x20d3 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x000083a2     0x4066 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x0000c408     0x13ee CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0000d7f6     0x123b CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x0000ea31      0xb65 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x0000f596      0xf8d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x00010523      0x51b CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x00010a3e      0x4ee CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x00010f2c      0x1d8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x00011104     0x1028 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0001212c     0x1a5f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00013b8b       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00013bad      0x27c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00013e29       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x00013e4b       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x00013e6d      0x2fb CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x00014168       0x26 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x0001418e       0x26 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x000141b4       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x000141d6      0x2d8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x000144ae       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x000144d0       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x000144f2      0x2f6 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x000147e8     0x1821 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00016009     0x1044 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_info     0x00000000    0x17039
+ .debug_info    0x00000000     0x1f76 CMakeFiles/pwm.dir/main.c.obj
+ .debug_info    0x00001f76     0x16d8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x0000364e      0x1e3 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x00003831      0x6bc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x00003eed      0x58e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x0000447b     0x1c9c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x00006117      0x1a4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x000062bb     0x20d3 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0000838e     0x4066 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x0000c3f4     0x13ee CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x0000d7e2     0x123b CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x0000ea1d      0xb65 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x0000f582      0xf8d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0001050f      0x51b CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x00010a2a      0x4ee CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x00010f18      0x1d8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x000110f0     0x1028 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x00012118     0x1a5f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00013b77       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00013b99      0x27c CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00013e15       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x00013e37       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00013e59      0x2fb CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x00014154       0x26 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x0001417a       0x26 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x000141a0       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x000141c2      0x2d8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x0001449a       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x000144bc       0x22 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x000144de      0x2f6 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x000147d4     0x1821 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x00015ff5     0x1044 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_abbrev   0x00000000     0x42f4
- .debug_abbrev  0x00000000      0x2fc CMakeFiles/pwm.dir/main.c.obj
- .debug_abbrev  0x000002fc      0x339 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x00000635       0xeb CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_abbrev  0x00000720      0x2e9 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_abbrev  0x00000a09      0x21b CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x00000c24      0x4e7 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x0000110b      0x116 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x00001221      0x397 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x000015b8      0x571 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- .debug_abbrev  0x00001b29      0x3b8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x00001ee1      0x297 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_abbrev  0x00002178      0x2d2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_abbrev  0x0000244a      0x3a5 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x000027ef      0x1ea CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x000029d9      0x1a8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x00002b81      0x109 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x00002c8a      0x4ba CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x00003144      0x384 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x000034c8       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x000034da      0x13b CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x00003615       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_abbrev  0x00003627       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_abbrev  0x00003639      0x196 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_abbrev  0x000037cf       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_abbrev  0x000037e3       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x000037f7       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_abbrev  0x00003809      0x18d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_abbrev  0x00003996       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x000039a8       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_abbrev  0x000039ba       0xad CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_abbrev  0x00003a67      0x4a5 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x00003f0c      0x3e8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_abbrev   0x00000000     0x42fb
+ .debug_abbrev  0x00000000      0x303 CMakeFiles/pwm.dir/main.c.obj
+ .debug_abbrev  0x00000303      0x339 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x0000063c       0xeb CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_abbrev  0x00000727      0x2e9 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x00000a10      0x21b CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x00000c2b      0x4e7 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x00001112      0x116 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x00001228      0x397 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x000015bf      0x571 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x00001b30      0x3b8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x00001ee8      0x297 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_abbrev  0x0000217f      0x2d2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_abbrev  0x00002451      0x3a5 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x000027f6      0x1ea CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x000029e0      0x1a8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x00002b88      0x109 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x00002c91      0x4ba CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x0000314b      0x384 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x000034cf       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x000034e1      0x13b CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x0000361c       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_abbrev  0x0000362e       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_abbrev  0x00003640      0x196 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_abbrev  0x000037d6       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_abbrev  0x000037ea       0x14 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x000037fe       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_abbrev  0x00003810      0x18d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_abbrev  0x0000399d       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x000039af       0x12 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_abbrev  0x000039c1       0xad CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_abbrev  0x00003a6e      0x4a5 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x00003f13      0x3e8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_loc      0x00000000     0xfbac
- .debug_loc     0x00000000     0x1476 CMakeFiles/pwm.dir/main.c.obj
- .debug_loc     0x00001476     0x118d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x00002603       0xe9 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x000026ec      0x45f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x00002b4b      0x233 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x00002d7e     0x13f5 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x00004173       0x60 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x000041d3     0x152e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x00005701     0x31cb CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x000088cc      0xacb CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x00009397     0x1446 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x0000a7dd      0x533 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_loc     0x0000ad10      0x81d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x0000b52d      0x2f3 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x0000b820      0x2ec CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x0000bb0c       0x71 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x0000bb7d      0x674 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x0000c1f1     0x2095 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x0000e286      0x1a1 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x0000e427       0x59 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x0000e480       0x81 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x0000e501      0xe23 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0000f324      0x888 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_loc      0x00000000     0xfbee
+ .debug_loc     0x00000000     0x14b8 CMakeFiles/pwm.dir/main.c.obj
+ .debug_loc     0x000014b8     0x118d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x00002645       0xe9 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x0000272e      0x45f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x00002b8d      0x233 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x00002dc0     0x13f5 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x000041b5       0x60 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x00004215     0x152e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x00005743     0x31cb CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x0000890e      0xacb CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x000093d9     0x1446 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x0000a81f      0x533 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_loc     0x0000ad52      0x81d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x0000b56f      0x2f3 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x0000b862      0x2ec CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x0000bb4e       0x71 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x0000bbbf      0x674 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x0000c233     0x2095 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x0000e2c8      0x1a1 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x0000e469       0x59 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x0000e4c2       0x81 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x0000e543      0xe23 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0000f366      0x888 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_aranges  0x00000000      0xd70
  .debug_aranges
@@ -2524,135 +2524,135 @@ LOAD linker stubs
  .debug_aranges
                 0x00000d18       0x58 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_ranges   0x00000000     0x3490
- .debug_ranges  0x00000000      0x288 CMakeFiles/pwm.dir/main.c.obj
- .debug_ranges  0x00000288      0x150 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_ranges  0x000003d8       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_ranges  0x000003f0       0xd8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_ranges  0x000004c8       0xf0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_ranges  0x000005b8      0x400 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_ranges  0x000009b8       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_ranges  0x000009c8      0xac0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_ranges  0x00001488      0xcb8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- .debug_ranges  0x00002140      0x3d0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_ranges  0x00002510      0x248 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_ranges  0x00002758       0xf8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_ranges  0x00002850       0x60 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_ranges  0x000028b0       0x30 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_ranges  0x000028e0       0x48 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_ranges  0x00002928       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_ranges  0x00002948      0x168 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_ranges  0x00002ab0      0x108 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_ranges  0x00002bb8       0x60 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_ranges  0x00002c18       0x38 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_ranges  0x00002c50       0x38 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_ranges  0x00002c88      0x138 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_ranges  0x00002dc0       0x38 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_ranges  0x00002df8      0x128 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_ranges  0x00002f20       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_ranges  0x00002f38       0x30 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_ranges  0x00002f68       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_ranges  0x00002f88      0x258 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_ranges  0x000031e0      0x2b0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_ranges   0x00000000     0x34a8
+ .debug_ranges  0x00000000      0x2a0 CMakeFiles/pwm.dir/main.c.obj
+ .debug_ranges  0x000002a0      0x150 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_ranges  0x000003f0       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_ranges  0x00000408       0xd8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_ranges  0x000004e0       0xf0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_ranges  0x000005d0      0x400 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_ranges  0x000009d0       0x10 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_ranges  0x000009e0      0xac0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_ranges  0x000014a0      0xcb8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_ranges  0x00002158      0x3d0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_ranges  0x00002528      0x248 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_ranges  0x00002770       0xf8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_ranges  0x00002868       0x60 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_ranges  0x000028c8       0x30 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_ranges  0x000028f8       0x48 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_ranges  0x00002940       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_ranges  0x00002960      0x168 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_ranges  0x00002ac8      0x108 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_ranges  0x00002bd0       0x60 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_ranges  0x00002c30       0x38 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_ranges  0x00002c68       0x38 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_ranges  0x00002ca0      0x138 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_ranges  0x00002dd8       0x38 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_ranges  0x00002e10      0x128 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_ranges  0x00002f38       0x18 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_ranges  0x00002f50       0x30 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_ranges  0x00002f80       0x20 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_ranges  0x00002fa0      0x258 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_ranges  0x000031f8      0x2b0 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_line     0x00000000     0xfc61
- .debug_line    0x00000000      0xd19 CMakeFiles/pwm.dir/main.c.obj
- .debug_line    0x00000d19      0xdb3 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00001acc      0x327 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00001df3      0x536 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00002329      0x532 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x0000285b     0x1187 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x000039e2      0x2c8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00003caa     0x11cc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00004e76     0x1d17 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00006b8d      0xd64 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000078f1      0x937 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00008228      0x871 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x00008a99      0xb3d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x000095d6      0x668 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00009c3e      0x493 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x0000a0d1      0x337 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000a408      0xc7a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000b082     0x12ba CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000c33c      0x165 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000c4a1      0x2a1 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000c742      0x2ee CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000ca30      0x43e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000ce6e      0x41f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000d28d       0xaf CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000d33c       0xb5 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000d3f1      0x3ed CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000d7de      0x3e7 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000dbc5       0xdf CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000dca4       0xed CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000dd91      0x249 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000dfda     0x1039 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000f013      0xc4e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_line     0x00000000     0xfc9b
+ .debug_line    0x00000000      0xd53 CMakeFiles/pwm.dir/main.c.obj
+ .debug_line    0x00000d53      0xdb3 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00001b06      0x327 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x00001e2d      0x536 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00002363      0x532 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00002895     0x1187 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00003a1c      0x2c8 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00003ce4     0x11cc CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00004eb0     0x1d17 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00006bc7      0xd64 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000792b      0x937 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00008262      0x871 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x00008ad3      0xb3d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00009610      0x668 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00009c78      0x493 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x0000a10b      0x337 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0000a442      0xc7a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000b0bc     0x12ba CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000c376      0x165 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000c4db      0x2a1 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000c77c      0x2ee CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000ca6a      0x43e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000cea8      0x41f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000d2c7       0xaf CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000d376       0xb5 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000d42b      0x3ed CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000d818      0x3e7 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000dbff       0xdf CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000dcde       0xed CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000ddcb      0x249 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000e014     0x1039 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000f04d      0xc4e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_str      0x00000000     0x3d99
- .debug_str     0x00000000      0x753 CMakeFiles/pwm.dir/main.c.obj
-                                0x810 (size before relaxing)
- .debug_str     0x00000753      0x4f6 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.debug_str      0x00000000     0x3dba
+ .debug_str     0x00000000      0x774 CMakeFiles/pwm.dir/main.c.obj
+                                0x82c (size before relaxing)
+ .debug_str     0x00000774      0x4f6 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
                                 0x9d4 (size before relaxing)
- .debug_str     0x00000c49       0x9f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_str     0x00000c6a       0x9f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
                                 0x25c (size before relaxing)
- .debug_str     0x00000ce8      0x1da CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_str     0x00000d09      0x1da CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
                                 0x3a0 (size before relaxing)
- .debug_str     0x00000ec2      0x10a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x00000ee3      0x10a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
                                 0x387 (size before relaxing)
- .debug_str     0x00000fcc      0x40a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x00000fed      0x40a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
                                 0x805 (size before relaxing)
- .debug_str     0x000013d6       0x7a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x000013f7       0x7a CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
                                 0x23d (size before relaxing)
- .debug_str     0x00001450      0x27d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x00001471      0x27d CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
                                 0x62f (size before relaxing)
- .debug_str     0x000016cd      0x72e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_str     0x000016ee      0x72e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
                                 0xc91 (size before relaxing)
- .debug_str     0x00001dfb      0x169 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x00001e1c      0x169 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
                                 0x759 (size before relaxing)
- .debug_str     0x00001f64      0x104 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_str     0x00001f85      0x104 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
                                 0x426 (size before relaxing)
- .debug_str     0x00002068      0x2ab CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_str     0x00002089      0x2ab CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
                                 0x574 (size before relaxing)
- .debug_str     0x00002313      0x297 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x00002334      0x297 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
                                 0x6cd (size before relaxing)
- .debug_str     0x000025aa       0xad CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x000025cb       0xad CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
                                 0x317 (size before relaxing)
- .debug_str     0x00002657      0x144 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_str     0x00002678      0x144 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
                                 0x35e (size before relaxing)
- .debug_str     0x0000279b       0x89 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x000027bc       0x89 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
                                 0x25b (size before relaxing)
- .debug_str     0x00002824      0x2e6 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x00002845      0x2e6 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                 0x80b (size before relaxing)
- .debug_str     0x00002b0a      0x27f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x00002b2b      0x27f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
                                 0x4bc (size before relaxing)
- .debug_str     0x00002d89       0x73 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x00002daa       0x73 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
                                  0xad (size before relaxing)
- .debug_str     0x00002dfc       0xe2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x00002e1d       0xe2 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
                                 0x296 (size before relaxing)
- .debug_str     0x00002ede       0x5f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_str     0x00002eff       0x5f CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
                                  0xa7 (size before relaxing)
- .debug_str     0x00002f3d       0x63 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_str     0x00002f5e       0x63 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
                                  0xab (size before relaxing)
- .debug_str     0x00002fa0       0xd4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_str     0x00002fc1       0xd4 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
                                 0x2ee (size before relaxing)
- .debug_str     0x00003074       0x69 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_str     0x00003095       0x69 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
                                  0xb1 (size before relaxing)
- .debug_str     0x000030dd       0x6e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x000030fe       0x6e CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
                                  0xb6 (size before relaxing)
- .debug_str     0x0000314b       0x61 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_str     0x0000316c       0x61 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
                                  0xa9 (size before relaxing)
- .debug_str     0x000031ac       0x98 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_str     0x000031cd       0x98 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                 0x2d6 (size before relaxing)
- .debug_str     0x00003244       0x65 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x00003265       0x65 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
                                  0xad (size before relaxing)
- .debug_str     0x000032a9       0x62 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_str     0x000032ca       0x62 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
                                  0xaa (size before relaxing)
- .debug_str     0x0000330b      0x262 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_str     0x0000332c      0x262 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
                                 0x41e (size before relaxing)
- .debug_str     0x0000356d      0x4d7 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_str     0x0000358e      0x4d7 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
                                 0x9d3 (size before relaxing)
- .debug_str     0x00003a44      0x355 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_str     0x00003a65      0x355 CMakeFiles/pwm.dir/H_/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
                                 0x8f5 (size before relaxing)
 
 .debug_frame    0x00000000     0x18d4
