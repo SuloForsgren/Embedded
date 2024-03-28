@@ -11,30 +11,30 @@ const uint rotator_toggle = 12;
 const uint rot_A = 10;
 const uint rot_B = 11;
 
+bool dim_up = false;
+bool dim_down = false;
+int led_brightness = 500;
+
 void rotary_isr() {
     static uint8_t prevStateA = 0;
     static uint8_t prevStateB = 0;
-    uint8_t stateA = gpio_get(rot_A);
-    uint8_t stateB = gpio_get(rot_B);
-
-    printf("State A: %d, State B: %d\n", stateA, stateB);
+    uint8_t stateA = gpio_get(rot_B);
+    uint8_t stateB = gpio_get(rot_A);
 
     if (stateA != prevStateA) {
         if (stateA == stateB) {
             encoderPos++;
-            printf("Rotating clockwise\n");
+            dim_up = true;
         } else {
             encoderPos--;
-            printf("Rotating counter clockwise\n");
+            dim_down = true;
         }
     }
-
     prevStateA = stateA;
     prevStateB = stateB;
 }
 
 int main() {
-
 
     bool led_toggle = true;
     bool rotator_pressed = false;
@@ -90,18 +90,46 @@ int main() {
     while (true) {
         if (!gpio_get(rotator_toggle) && !rotator_pressed) {
             rotator_pressed = true;
-            if (led_toggle) {
+            if (led_brightness == 0 && rotator_pressed) {
+                pwm_set_chan_level(slice_led1, pwm_channel1, 500);
+                pwm_set_chan_level(slice_led2, pwm_channel2, 500);
+                pwm_set_chan_level(slice_led3, pwm_channel3, 500);
+                led_brightness = 500;
+                led_toggle = true;
+            }
+            else if (led_toggle) {
                 pwm_set_chan_level(slice_led1, pwm_channel1, 0);
                 pwm_set_chan_level(slice_led2, pwm_channel2, 0);
                 pwm_set_chan_level(slice_led3, pwm_channel3, 0);
                 led_toggle = false;
             }
             else {
-                pwm_set_chan_level(slice_led1, pwm_channel1, 500);
-                pwm_set_chan_level(slice_led2, pwm_channel2, 500);
-                pwm_set_chan_level(slice_led3, pwm_channel3, 500);
+                pwm_set_chan_level(slice_led1, pwm_channel1, led_brightness);
+                pwm_set_chan_level(slice_led2, pwm_channel2, led_brightness);
+                pwm_set_chan_level(slice_led3, pwm_channel3, led_brightness);
                 led_toggle = true;
             }
+        }
+        else if (dim_down && !rotator_pressed && led_toggle) {
+            if (led_brightness >= 50) {
+                led_brightness -= 50;
+            }
+            else {
+                led_brightness = 0;
+            }
+            pwm_set_chan_level(slice_led1, pwm_channel1, led_brightness);
+            pwm_set_chan_level(slice_led2, pwm_channel2, led_brightness);
+            pwm_set_chan_level(slice_led3, pwm_channel3, led_brightness);
+            dim_down = false;
+        }
+        else if (dim_up && !rotator_pressed && led_toggle) {
+            if (led_brightness < 1000){
+                led_brightness += 50;
+            }
+            pwm_set_chan_level(slice_led1, pwm_channel1, led_brightness);
+            pwm_set_chan_level(slice_led2, pwm_channel2, led_brightness);
+            pwm_set_chan_level(slice_led3, pwm_channel3, led_brightness);
+            dim_up = false;
         }
         else if (gpio_get(rotator_toggle) && rotator_pressed) {
             rotator_pressed= false;
