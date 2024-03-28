@@ -3,11 +3,6 @@
 #include "hardware/pwm.h"
 #include "hardware/irq.h"
 
-volatile int encoderPos = 0;
-const uint led_pin1 = 20;
-const uint led_pin2 = 21;
-const uint led_pin3 = 22;
-const uint rotator_toggle = 12;
 const uint rot_A = 10;
 const uint rot_B = 11;
 
@@ -23,10 +18,8 @@ void rotary_isr() {
 
     if (stateA != prevStateA) {
         if (stateA == stateB) {
-            encoderPos++;
             dim_up = true;
         } else {
-            encoderPos--;
             dim_down = true;
         }
     }
@@ -35,8 +28,11 @@ void rotary_isr() {
 }
 
 int main() {
-
-    bool led_toggle = true;
+    const uint rotator_toggle = 12;
+    const uint led_pin1 = 20;
+    const uint led_pin2 = 21;
+    const uint led_pin3 = 22;
+    bool led_toggle = false;
     bool rotator_pressed = false;
 
     uint slice_led1 = pwm_gpio_to_slice_num(20);
@@ -58,10 +54,6 @@ int main() {
     pwm_init(slice_led1,&config,false);
     pwm_init(slice_led2,&config,false);
     pwm_init(slice_led3,&config,false);
-
-    pwm_set_chan_level(slice_led1, pwm_channel1, 500);
-    pwm_set_chan_level(slice_led2, pwm_channel2, 500);
-    pwm_set_chan_level(slice_led3, pwm_channel3, 500);
 
     gpio_set_function(led_pin1, GPIO_FUNC_PWM);
     gpio_set_function(led_pin2, GPIO_FUNC_PWM);

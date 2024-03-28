@@ -4,7 +4,7 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
       - "CMakeLists.txt:11 (project)"
     message: |
       The target system is: PICO -  - cortex-m0plus
@@ -12,19 +12,19 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:11 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Compiler: C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
       Build flags: -mcpu=cortex-m0plus;-mthumb
       Id flags:  
       
       The output was:
       1
-      h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(lib_a-exit.o): in function `exit':
+      c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(lib_a-exit.o): in function `exit':
       exit.c:(.text.exit+0x18): undefined reference to `_exit'
       collect2.exe: error: ld returned 1 exit status
       
@@ -32,13 +32,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:11 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
+      Compiler: C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe 
       Build flags: -mcpu=cortex-m0plus;-mthumb
       Id flags: -c 
       
@@ -49,24 +49,24 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o
+        C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:11 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
+      Compiler: C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
       Build flags: -mcpu=cortex-m0plus;-mthumb
       Id flags:  
       
       The output was:
       1
-      h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(lib_a-exit.o): in function `exit':
+      c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(lib_a-exit.o): in function `exit':
       exit.c:(.text.exit+0x18): undefined reference to `_exit'
       collect2.exe: error: ld returned 1 exit status
       
@@ -74,13 +74,13 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:11 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
+      Compiler: C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe 
       Build flags: -mcpu=cortex-m0plus;-mthumb
       Id flags: -c 
       
@@ -91,13 +91,13 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
       The CXX compiler identification is GNU, found in:
-        H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o
+        C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o
       
   -
     kind: "message-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1104 (message)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1104 (message)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "CMakeLists.txt:11 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
@@ -109,426 +109,448 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:11 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7ewjcj"
-      binary: "H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7ewjcj"
+      source: "C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u3snfo"
+      binary: "C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u3snfo"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_C_FLAGS_DEBUG: "-Og -g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/cmake"
+      CMAKE_MODULE_PATH: "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/cmake"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7ewjcj'
+        Change Dir: 'C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u3snfo'
         
-        Run Build Command(s): "H:/Clion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_a2c3e
-        [1/2] H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj -c "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/sulof/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4829d/fast
+        C:/Users/sulof/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4829d.dir\\build.make CMakeFiles/cmTC_4829d.dir/build
+        mingw32-make[1]: Entering directory 'C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u3snfo'
+        Building C object CMakeFiles/cmTC_4829d.dir/CMakeCCompilerABI.c.obj
+        C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb  -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj -c "C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
-        COLLECT_GCC=H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_GCC=C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
         Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\sulof\\AppData\\Local\\Temp\\ccpve1Rh.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\sulof\\AppData\\Local\\Temp\\ccTTXZdG.s
         GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
-        ignoring nonexistent directory "h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
-        ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
-        ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
-        ignoring nonexistent directory "h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"
+        ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
-         h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
-         h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+         c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
         End of search list.
         GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj C:\\Users\\sulof\\AppData\\Local\\Temp\\ccpve1Rh.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\sulof\\AppData\\Local\\Temp\\ccTTXZdG.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
-        COMPILER_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
-        LIBRARY_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-        [2/2] cmd.exe /C "cd . && H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib -v CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj -o cmTC_a2c3e.elf   && cd ."
+        COMPILER_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        Linking C executable cmTC_4829d.elf
+        "C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4829d.dir\\link.txt --verbose=1
+        C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_4829d.dir/CMakeCCompilerABI.c.obj -o cmTC_4829d.elf 
         Using built-in specs.
-        COLLECT_GCC=H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
-        COLLECT_LTO_WRAPPER=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+        COLLECT_GCC=C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
         Target: arm-none-eabi
         Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COMPILER_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
-        LIBRARY_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a2c3e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\cc3dkU4w.res --sysroot=h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_a2c3e.elf -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj
-        h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a2c3e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        COMPILER_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_4829d.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\ccLNq0eS.res --sysroot=c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_4829d.elf -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_4829d.dir/CMakeCCompilerABI.c.obj
+        c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_4829d.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        mingw32-make[1]: Leaving directory 'C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u3snfo'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:11 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
-          add: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-          add: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+          add: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+          add: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+          add: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
         end of search list found
-        collapse include dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include]
-        collapse include dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-        collapse include dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include]
-        implicit include dirs: [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include]
+        collapse include dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include]
+        collapse include dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        collapse include dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include]
+        implicit include dirs: [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:11 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7ewjcj']
+        ignore line: [Change Dir: 'C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u3snfo']
         ignore line: []
-        ignore line: [Run Build Command(s): "H:/Clion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_a2c3e]
-        ignore line: [[1/2] H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj -c "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/sulof/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4829d/fast]
+        ignore line: [C:/Users/sulof/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4829d.dir\\build.make CMakeFiles/cmTC_4829d.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-u3snfo']
+        ignore line: [Building C object CMakeFiles/cmTC_4829d.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb  -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj -c "C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [COLLECT_GCC=C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
         ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\sulof\\AppData\\Local\\Temp\\ccpve1Rh.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\sulof\\AppData\\Local\\Temp\\ccTTXZdG.s]
         ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
-        ignore line: [ignoring nonexistent directory "h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
-        ignore line: [ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
-        ignore line: [ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
-        ignore line: [ignoring nonexistent directory "h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+        ignore line: [ignoring nonexistent directory "c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
-        ignore line: [ h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-        ignore line: [ h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        ignore line: [ c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
+        ignore line: [ c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        ignore line: [ c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f3937ce18b4177bfd408ca565336596a]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj C:\\Users\\sulof\\AppData\\Local\\Temp\\ccpve1Rh.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\sulof\\AppData\\Local\\Temp\\ccTTXZdG.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
-        ignore line: [COMPILER_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
-        ignore line: [LIBRARY_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [[2/2] cmd.exe /C "cd . && H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib -v CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj -o cmTC_a2c3e.elf   && cd ."]
+        ignore line: [COMPILER_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_4829d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [Linking C executable cmTC_4829d.elf]
+        ignore line: ["C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4829d.dir\\link.txt --verbose=1]
+        ignore line: [C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_4829d.dir/CMakeCCompilerABI.c.obj -o cmTC_4829d.elf ]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe]
-        ignore line: [COLLECT_LTO_WRAPPER=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
+        ignore line: [COLLECT_GCC=C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
         ignore line: [Target: arm-none-eabi]
         ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COMPILER_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
-        ignore line: [LIBRARY_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a2c3e.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        link line: [ h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\cc3dkU4w.res --sysroot=h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_a2c3e.elf -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj]
-          arg [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
+        ignore line: [COMPILER_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_4829d.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        link line: [ c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\ccLNq0eS.res --sysroot=c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_4829d.elf -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_4829d.dir/CMakeCCompilerABI.c.obj]
+          arg [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
-          arg [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
-          arg [-plugin-opt=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\cc3dkU4w.res] ==> ignore
-          arg [--sysroot=h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi] ==> ignore
+          arg [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\ccLNq0eS.res] ==> ignore
+          arg [--sysroot=c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a2c3e.elf] ==> ignore
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib]
+          arg [cmTC_4829d.elf] ==> ignore
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_a2c3e.dir/CMakeCCompilerABI.c.obj] ==> ignore
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
+          arg [CMakeFiles/cmTC_4829d.dir/CMakeCCompilerABI.c.obj] ==> ignore
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
         implicit libs: []
         implicit objs: []
-        implicit dirs: [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
+        implicit dirs: [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
         implicit fwks: []
       
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:11 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s6rbet"
-      binary: "H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s6rbet"
+      source: "C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-z7bx7f"
+      binary: "C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-z7bx7f"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/pico-sdk/cmake"
+      CMAKE_MODULE_PATH: "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/cmake"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s6rbet'
+        Change Dir: 'C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-z7bx7f'
         
-        Run Build Command(s): "H:/Clion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_59fbf
-        [1/2] H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj -c "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/sulof/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d6515/fast
+        C:/Users/sulof/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d6515.dir\\build.make CMakeFiles/cmTC_d6515.dir/build
+        mingw32-make[1]: Entering directory 'C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-z7bx7f'
+        Building CXX object CMakeFiles/cmTC_d6515.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb  -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
-        COLLECT_GCC=H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe
+        COLLECT_GCC=C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
         Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\sulof\\AppData\\Local\\Temp\\cch9moh7.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\sulof\\AppData\\Local\\Temp\\ccgJhJGh.s
         GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"
-        ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp"
-        ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"
-        ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
-        ignoring nonexistent directory "h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
-        ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
-        ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
-        ignoring nonexistent directory "h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"
+        ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"
+        ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp"
+        ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"
+        ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1
-         h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp
-         h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward
-         h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
-         h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
-         h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+         c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1
+         c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp
+         c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward
+         c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
         End of search list.
         GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\sulof\\AppData\\Local\\Temp\\cch9moh7.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\sulof\\AppData\\Local\\Temp\\ccgJhJGh.s
         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
-        COMPILER_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
-        LIBRARY_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-        [2/2] cmd.exe /C "cd . && H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib -v CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_59fbf.elf   && cd ."
+        COMPILER_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        Linking CXX executable cmTC_d6515.elf
+        "C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d6515.dir\\link.txt --verbose=1
+        C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_d6515.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d6515.elf 
         Using built-in specs.
-        COLLECT_GCC=H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe
-        COLLECT_LTO_WRAPPER=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+        COLLECT_GCC=C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe
+        COLLECT_LTO_WRAPPER=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
         Target: arm-none-eabi
         Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-        COMPILER_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
-        LIBRARY_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_59fbf.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
-         h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\ccCdyK8f.res --sysroot=h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_59fbf.elf -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj
-        h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_59fbf.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        COMPILER_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_d6515.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\ccUXa4Tt.res --sysroot=c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_d6515.elf -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_d6515.dir/CMakeCXXCompilerABI.cpp.obj
+        c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_d6515.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+        mingw32-make[1]: Leaving directory 'C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-z7bx7f'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:11 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
-          add: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp]
-          add: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
-          add: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
-          add: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-          add: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+          add: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+          add: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp]
+          add: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+          add: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+          add: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+          add: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
         end of search list found
-        collapse include dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1]
-        collapse include dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp]
-        collapse include dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/backward]
-        collapse include dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include]
-        collapse include dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-        collapse include dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include]
-        implicit include dirs: [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/backward;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include]
+        collapse include dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1]
+        collapse include dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp]
+        collapse include dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/backward]
+        collapse include dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include]
+        collapse include dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        collapse include dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include]
+        implicit include dirs: [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/backward;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:11 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'H:/Metropolia/IOT/Embedded/Lab1/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s6rbet']
+        ignore line: [Change Dir: 'C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-z7bx7f']
         ignore line: []
-        ignore line: [Run Build Command(s): "H:/Clion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_59fbf]
-        ignore line: [[1/2] H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb  -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj -c "H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/sulof/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d6515/fast]
+        ignore line: [C:/Users/sulof/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d6515.dir\\build.make CMakeFiles/cmTC_d6515.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-z7bx7f']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d6515.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb  -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [COLLECT_GCC=C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
         ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\sulof\\AppData\\Local\\Temp\\cch9moh7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\sulof\\AppData\\Local\\Temp\\ccgJhJGh.s]
         ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"]
-        ignore line: [ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp"]
-        ignore line: [ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"]
-        ignore line: [ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
-        ignore line: [ignoring nonexistent directory "h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
-        ignore line: [ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
-        ignore line: [ignoring duplicate directory "h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
-        ignore line: [ignoring nonexistent directory "h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"]
+        ignore line: [ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp"]
+        ignore line: [ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"]
+        ignore line: [ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+        ignore line: [ignoring nonexistent directory "c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi/usr/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
-        ignore line: [ h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp]
-        ignore line: [ h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
-        ignore line: [ h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
-        ignore line: [ h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-        ignore line: [ h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        ignore line: [ c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+        ignore line: [ c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp]
+        ignore line: [ c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+        ignore line: [ c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
+        ignore line: [ c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        ignore line: [ c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [ h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\sulof\\AppData\\Local\\Temp\\cch9moh7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\sulof\\AppData\\Local\\Temp\\ccgJhJGh.s]
         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
-        ignore line: [COMPILER_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
-        ignore line: [LIBRARY_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        ignore line: [[2/2] cmd.exe /C "cd . && H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib -v CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_59fbf.elf   && cd ."]
+        ignore line: [COMPILER_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles\\cmTC_d6515.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [Linking CXX executable cmTC_d6515.elf]
+        ignore line: ["C:\\Clion\\CLion 2023.3.4\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d6515.dir\\link.txt --verbose=1]
+        ignore line: [C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_d6515.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d6515.elf ]
         ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=H:\\Metropolia\\IOT\\Embedded\\Pico\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe]
-        ignore line: [COLLECT_LTO_WRAPPER=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
+        ignore line: [COLLECT_GCC=C:\\PicoVittuSaatana\\Pico-SDK-v1.5.0\\gcc-arm-none-eabi\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
         ignore line: [Target: arm-none-eabi]
         ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-        ignore line: [COMPILER_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
-        ignore line: [LIBRARY_PATH=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
-        ignore line: [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_59fbf.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
-        link line: [ h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\ccCdyK8f.res --sysroot=h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_59fbf.elf -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj]
-          arg [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
+        ignore line: [COMPILER_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_d6515.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        link line: [ c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\ccUXa4Tt.res --sysroot=c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi -X -o cmTC_d6515.elf -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_d6515.dir/CMakeCXXCompilerABI.cpp.obj]
+          arg [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
-          arg [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
-          arg [-plugin-opt=h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\ccCdyK8f.res] ==> ignore
-          arg [--sysroot=h:\\metropolia\\iot\\embedded\\pico\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi] ==> ignore
+          arg [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\sulof\\AppData\\Local\\Temp\\ccUXa4Tt.res] ==> ignore
+          arg [--sysroot=c:\\picovittusaatana\\pico-sdk-v1.5.0\\gcc-arm-none-eabi\\bin\\../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_59fbf.elf] ==> ignore
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
-          arg [-Lh:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib]
+          arg [cmTC_d6515.elf] ==> ignore
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
+          arg [-Lc:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_59fbf.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
-        collapse library dir [h:/metropolia/iot/embedded/pico/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib] ==> [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
+          arg [CMakeFiles/cmTC_d6515.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
+        collapse library dir [c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../arm-none-eabi/lib] ==> [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
         implicit libs: []
         implicit objs: []
-        implicit dirs: [H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc;H:/Metropolia/IOT/Embedded/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
+        implicit dirs: [C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib]
         implicit fwks: []
       
       
