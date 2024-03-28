@@ -1,0 +1,1 @@
+cmd='C:/Clion/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe;-DCMAKE_MAKE_PROGRAM:FILEPATH=C:/Users/sulof/Downloads/mingw64/bin/mingw32-make.exe;-GCodeBlocks - MinGW Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

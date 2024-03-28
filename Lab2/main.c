@@ -1,15 +1,40 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
+#include "hardware/irq.h"
 
+volatile int encoderPos = 0;
+const uint led_pin1 = 20;
+const uint led_pin2 = 21;
+const uint led_pin3 = 22;
+const uint rotator_toggle = 12;
+const uint rot_A = 10;
+const uint rot_B = 11;
+
+void rotary_isr() {
+    static uint8_t prevStateA = 0;
+    static uint8_t prevStateB = 0;
+    uint8_t stateA = gpio_get(rot_A);
+    uint8_t stateB = gpio_get(rot_B);
+
+    printf("State A: %d, State B: %d\n", stateA, stateB);
+
+    if (stateA != prevStateA) {
+        if (stateA == stateB) {
+            encoderPos++;
+            printf("Rotating clockwise\n");
+        } else {
+            encoderPos--;
+            printf("Rotating counter clockwise\n");
+        }
+    }
+
+    prevStateA = stateA;
+    prevStateB = stateB;
+}
 
 int main() {
-    const uint led_pin1 = 20;
-    const uint led_pin2 = 21;
-    const uint led_pin3 = 22;
-    const uint rotator_toggle = 12;
-    const uint rot_A = 10;
-    const uint rot_B = 11;
+
 
     bool led_toggle = true;
     bool rotator_pressed = false;
@@ -59,6 +84,9 @@ int main() {
 
     stdio_init_all();
 
+    gpio_set_irq_enabled_with_callback(rot_A, GPIO_IRQ_EDGE_FALL | GPIO_IRQ_EDGE_RISE, true, &rotary_isr);
+    gpio_set_irq_enabled_with_callback(rot_B, GPIO_IRQ_EDGE_FALL | GPIO_IRQ_EDGE_RISE, true, &rotary_isr);
+
     while (true) {
         if (!gpio_get(rotator_toggle) && !rotator_pressed) {
             rotator_pressed = true;
@@ -68,7 +96,7 @@ int main() {
                 pwm_set_chan_level(slice_led3, pwm_channel3, 0);
                 led_toggle = false;
             }
-            else if (!led_toggle) {
+            else {
                 pwm_set_chan_level(slice_led1, pwm_channel1, 500);
                 pwm_set_chan_level(slice_led2, pwm_channel2, 500);
                 pwm_set_chan_level(slice_led3, pwm_channel3, 500);

@@ -1,0 +1,5 @@
+C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/CMakeFiles/elf2uf2.dir
+C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/CMakeFiles/edit_cache.dir
+C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/CMakeFiles/rebuild_cache.dir
+C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

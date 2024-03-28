@@ -1,0 +1,25 @@
+CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: \
+ C:\PicoVittuSaatana\Pico-SDK-v1.5.0\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\c++\10.3.1\cstdlib \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\c++config.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\os_defines.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\cpu_defines.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\c++\10.3.1\pstl\pstl_config.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\stdlib.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\machine\ieeefp.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\_ansi.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\newlib.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\_newlib_version.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\sys\config.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\sys\features.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\sys\reent.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\_ansi.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\sys\_types.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\machine\_types.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\machine\_default_types.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\sys\lock.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\sys\cdefs.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\machine\stdlib.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\alloca.h \
+ c:\picovittusaatana\pico-sdk-v1.5.0\gcc-arm-none-eabi\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h
