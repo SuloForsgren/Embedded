@@ -8,31 +8,13 @@ CMake Deprecation Warning:
   use the cmake-file-api(7) to view CMake-generated project build trees.
 
 
-Using PICO_SDK_PATH from environment ('C:\PicoVittuSaatana\Pico-SDK-v1.5.0\pico-sdk')
 PICO_SDK_PATH is C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk
-Defaulting PICO_PLATFORM to rp2040 since not specified.
-Defaulting PICO platform compiler to pico_arm_gcc since not specified.
-PICO compiler is pico_arm_gcc
--- The C compiler identification is GNU 10.3.1
--- The CXX compiler identification is GNU 10.3.1
--- The ASM compiler identification is GNU
--- Found assembler: C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
+PICO platform is rp2040.
 Build type is Debug
 Using regular optimized debug build (set PICO_DEOPTIMIZED_DEBUG=1 to de-optimize)
 PICO target board is pico_w.
 Using CMake board configuration from C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/boards/pico_w.cmake
 Using board configuration from C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/boards/include/boards/pico_w.h
--- Found Python3: C:/Users/sulof/AppData/Local/Programs/Python/Python310/python.exe (found version "3.10.5") found components: Interpreter 
 TinyUSB available at C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040; enabling build support for USB.
 Compiling TinyUSB with CFG_TUSB_DEBUG=1
 BTstack available at C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/lib/btstack
@@ -41,6 +23,6 @@ Pico W Bluetooth build support available.
 lwIP available at C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/lib/lwip
 Pico W Wi-Fi build support available.
 mbedtls available at C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/lib/mbedtls
--- Configuring done (4.6s)
--- Generating done (0.8s)
+-- Configuring done (1.1s)
+-- Generating done (0.5s)
 -- Build files have been written to: C:/Metropolia/Ohjelmointi/Embedded/Lab3/cmake-build-debug
