@@ -1083,9 +1083,9 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_70.1
                 0x00000000        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccESBlXl.o
- .data          0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccESBlXl.o
- .bss           0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccESBlXl.o
+ .text          0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccsRsPEu.o
+ .data          0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccsRsPEu.o
+ .bss           0x00000000        0x0 C:\Users\sulof\AppData\Local\Temp\ccsRsPEu.o
  .data          0x00000000        0x0 c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1301,7 +1301,7 @@ LOAD c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-no
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\sulof\AppData\Local\Temp\ccESBlXl.o
+ .boot2         0x10000000      0x100 C:\Users\sulof\AppData\Local\Temp\ccsRsPEu.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1368,379 +1368,378 @@ LOAD c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-no
  .text          0x100002bc       0x48 c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.pwm_init
                 0x10000304       0x30 CMakeFiles/pwm.dir/main.c.obj
- .text.main     0x10000334      0x2bc CMakeFiles/pwm.dir/main.c.obj
+ .text.main     0x10000334      0x2c0 CMakeFiles/pwm.dir/main.c.obj
                 0x10000334                main
  .text.gpio_set_function
-                0x100005f0       0x30 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100005f0                gpio_set_function
+                0x100005f4       0x30 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100005f4                gpio_set_function
  .text.gpio_set_pulls
-                0x10000620       0x34 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000620                gpio_set_pulls
+                0x10000624       0x34 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000624                gpio_set_pulls
  .text.gpio_init
-                0x10000654       0x16 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000654                gpio_init
- *fill*         0x1000066a        0x2 
+                0x10000658       0x16 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000658                gpio_init
+ *fill*         0x1000066e        0x2 
  .text.running_on_fpga
-                0x1000066c       0x14 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x1000066c                running_on_fpga
+                0x10000670       0x14 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000670                running_on_fpga
  .text.hw_claim_lock
-                0x10000680       0x18 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000680                hw_claim_lock
+                0x10000684       0x18 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000684                hw_claim_lock
  .text.hw_claim_unlock
-                0x10000698       0x14 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000698                hw_claim_unlock
+                0x1000069c       0x14 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000069c                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x100006ac       0x32 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100006ac                hw_claim_or_assert
- *fill*         0x100006de        0x2 
+                0x100006b0       0x32 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100006b0                hw_claim_or_assert
+ *fill*         0x100006e2        0x2 
  .text.spin_locks_reset
-                0x100006e0       0x20 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100006e0                spin_locks_reset
+                0x100006e4       0x20 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100006e4                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000700       0x1c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000700                next_striped_spin_lock_num
+                0x10000704       0x1c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000704                next_striped_spin_lock_num
  .text.set_raw_irq_handler_and_unlock
-                0x1000071c       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000720       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.make_branch
-                0x10000744       0x48 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000748       0x48 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.insert_branch_and_link
-                0x1000078c       0x40 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000790       0x40 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_is_enabled
-                0x100007cc       0x18 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100007cc                irq_is_enabled
+                0x100007d0       0x18 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100007d0                irq_is_enabled
  .text.irq_set_mask_enabled
-                0x100007e4       0x20 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100007e4                irq_set_mask_enabled
+                0x100007e8       0x20 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100007e8                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x10000804        0xe CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000804                irq_set_enabled
- *fill*         0x10000812        0x2 
+                0x10000808        0xe CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000808                irq_set_enabled
+ *fill*         0x10000816        0x2 
  .text.irq_get_vtable_handler
-                0x10000814       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000814                irq_get_vtable_handler
+                0x10000818       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000818                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000824       0x54 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000824                irq_set_exclusive_handler
+                0x10000828       0x54 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000828                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x10000878      0x1ac CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000878                irq_remove_handler
+                0x1000087c      0x1ac CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000087c                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000a24       0xf0 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a24                irq_add_tail_to_free_list
+                0x10000a28       0xf0 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a28                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000b14       0x1c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000b14                irq_init_priorities
+                0x10000b18       0x1c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000b18                irq_init_priorities
  .text.lock_init
-                0x10000b30       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10000b30                lock_init
+                0x10000b34       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10000b34                lock_init
  .text.mutex_init
-                0x10000b40       0x1a CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000b40                mutex_init
+                0x10000b44       0x1a CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000b44                mutex_init
  .text.recursive_mutex_init
-                0x10000b5a       0x1e CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000b5a                recursive_mutex_init
+                0x10000b5e       0x1e CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000b5e                recursive_mutex_init
  .text.alarm_pool_post_alloc_init
-                0x10000b78       0x40 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b7c       0x40 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until_callback
-                0x10000bb8       0x30 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000bbc       0x30 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x10000be8       0x7c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000be8                timer_pool_entry_comparator
+                0x10000bec       0x7c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000bec                timer_pool_entry_comparator
  .text.ph_add_child_node
-                0x10000c64       0xa4 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c68       0xa4 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .text.ph_merge_nodes
-                0x10000d08       0x3e CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10000d46        0x2 
+                0x10000d0c       0x3e CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10000d4a        0x2 
  .text.add_alarm_under_lock
-                0x10000d48      0x174 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000d4c      0x174 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000ebc      0x33c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ec0      0x33c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x100011f8       0x40 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x100011f8                alarm_pool_init_default
+                0x100011fc       0x40 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x100011fc                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10001238       0x2c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001238                alarm_pool_get_default
+                0x1000123c       0x2c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000123c                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10001264      0x168 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001264                alarm_pool_add_alarm_at
+                0x10001268      0x168 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001268                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x100013cc       0xf0 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x100013cc                alarm_pool_cancel_alarm
+                0x100013d0       0xf0 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x100013d0                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x100014bc       0xfc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x100014bc                sleep_until
+                0x100014c0       0xfc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x100014c0                sleep_until
  .text.sleep_us
-                0x100015b8       0x58 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x100015b8                sleep_us
+                0x100015bc       0x58 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x100015bc                sleep_us
  .text.sleep_ms
-                0x10001610       0x14 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001610                sleep_ms
+                0x10001614       0x14 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001614                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10001624       0xac CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001624                best_effort_wfe_or_timeout
+                0x10001628       0xac CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001628                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x100016d0       0x90 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100016d4       0x90 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001760       0x18 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001760                hardware_alarm_claim
+                0x10001764       0x18 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001764                hardware_alarm_claim
  .text.time_us_64
-                0x10001778       0x18 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001778                time_us_64
+                0x1000177c       0x18 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000177c                time_us_64
  .text.busy_wait_until
-                0x10001790       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001790                busy_wait_until
+                0x10001794       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001794                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x100017b8       0x90 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100017b8                hardware_alarm_set_callback
+                0x100017bc       0x90 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100017bc                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001848       0xe8 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001848                hardware_alarm_set_target
+                0x1000184c       0xe8 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000184c                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001930       0x40 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001930                hardware_alarm_cancel
+                0x10001934       0x40 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001934                hardware_alarm_cancel
  .text.ph_add_child_node
-                0x10001970       0xa4 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001974       0xa4 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x10001a14       0x3e CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10001a52        0x2 
+                0x10001a18       0x3e CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10001a56        0x2 
  .text.ph_clear
-                0x10001a54       0x70 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001a54                ph_clear
+                0x10001a58       0x70 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001a58                ph_clear
  .text.ph_post_alloc_init
-                0x10001ac4        0xe CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ac4                ph_post_alloc_init
- *fill*         0x10001ad2        0x2 
+                0x10001ac8        0xe CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001ac8                ph_post_alloc_init
+ *fill*         0x10001ad6        0x2 
  .text.ph_merge_two_pass
-                0x10001ad4       0xa8 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ad4                ph_merge_two_pass
+                0x10001ad8       0xa8 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001ad8                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001b7c      0x128 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001b80      0x128 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001ca4       0x14 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ca4                ph_remove_head
+                0x10001ca8       0x14 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001ca8                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001cb8       0xf8 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001cb8                ph_remove_and_free_node
+                0x10001cbc       0xf8 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001cbc                ph_remove_and_free_node
  .text.uart_set_baudrate
-                0x10001db0       0x5c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001db0                uart_set_baudrate
+                0x10001db4       0x5c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001db4                uart_set_baudrate
  .text.uart_set_translate_crlf
-                0x10001e0c       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001e0c                uart_set_translate_crlf
+                0x10001e10       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001e10                uart_set_translate_crlf
  .text.uart_init
-                0x10001e34       0x80 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001e34                uart_init
+                0x10001e38       0x80 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001e38                uart_init
  .text.clock_configure
-                0x10001eb4      0x104 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001eb4                clock_configure
+                0x10001eb8      0x104 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001eb8                clock_configure
  .text.clocks_init
-                0x10001fb8      0x100 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001fb8                clocks_init
+                0x10001fbc      0x100 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001fbc                clocks_init
  .text.clock_get_hz
-                0x100020b8        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100020b8                clock_get_hz
+                0x100020bc        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100020bc                clock_get_hz
  .text.pll_init
-                0x100020c4      0x12c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x100020c4                pll_init
+                0x100020c8      0x12c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x100020c8                pll_init
  .text.watchdog_start_tick
-                0x100021f0       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x100021f0                watchdog_start_tick
+                0x100021f4       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100021f4                watchdog_start_tick
  .text.xosc_init
-                0x10002200       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10002200                xosc_init
- .text._exit    0x10002228        0x4 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002228                _exit
- .text.exit     0x1000222c        0x6 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000222c                exit
- *fill*         0x10002232        0x2 
+                0x10002204       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002204                xosc_init
+ .text._exit    0x1000222c        0x4 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000222c                _exit
+ .text.exit     0x10002230        0x6 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002230                exit
+ *fill*         0x10002236        0x2 
  .text.__assert_func
-                0x10002234       0x3c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002234                __assert_func
+                0x10002238       0x3c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002238                __assert_func
  .text.runtime_init
-                0x10002270       0xf8 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002270                runtime_init
- .text.panic    0x10002368       0x30 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002368                panic
+                0x10002274       0xf8 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002274                runtime_init
+ .text.panic    0x1000236c       0x30 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000236c                panic
  .text._out_null
-                0x10002398        0x2 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000239c        0x2 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x1000239a        0xe CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x100023a8       0x24 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000239e        0xe CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x100023ac       0x24 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x100023cc       0xae CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100023d0       0xae CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x1000247a      0x112 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000247e      0x112 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x1000258c       0xbc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002590       0xbc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x10002648       0xe2 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x1000272a        0x2 
- .text._etoa    0x1000272c      0x414 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10002b40      0x354 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000264c       0xe2 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x1000272e        0x2 
+ .text._etoa    0x10002730      0x414 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002b44      0x354 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002e94      0x624 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002e98      0x624 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x100034b8       0x20 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100034b8                vfctprintf
- .text          0x100034d8       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x100034bc       0x20 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100034bc                vfctprintf
+ .text          0x100034dc       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x100034e8       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100034e8                rom_func_lookup
+                0x100034ec       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100034ec                rom_func_lookup
  .text.rom_data_lookup
-                0x100034f8       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100034f8                rom_data_lookup
+                0x100034fc       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100034fc                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10003508       0x36 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003508                rom_funcs_lookup
- *fill*         0x1000353e        0x2 
+                0x1000350c       0x36 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x1000350c                rom_funcs_lookup
+ *fill*         0x10003542        0x2 
  .text.__wrap___aeabi_idiv
-                0x10003540       0x50 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003540                __wrap___aeabi_idivmod
-                0x10003540                divmod_s32s32
-                0x10003540                div_s32s32
-                0x10003540                __wrap___aeabi_idiv
-                0x10003548                divmod_s32s32_unsafe
-                0x10003574                divmod_s32s32_savestate
+                0x10003544       0x50 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003544                __wrap___aeabi_idivmod
+                0x10003544                divmod_s32s32
+                0x10003544                div_s32s32
+                0x10003544                __wrap___aeabi_idiv
+                0x1000354c                divmod_s32s32_unsafe
+                0x10003578                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10003590       0x4c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003590                __wrap___aeabi_uidiv
-                0x10003590                __wrap___aeabi_uidivmod
-                0x10003590                div_u32u32
-                0x10003590                divmod_u32u32
-                0x10003598                divmod_u32u32_unsafe
-                0x100035c0                divmod_u32u32_savestate
+                0x10003594       0x4c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003594                __wrap___aeabi_uidiv
+                0x10003594                __wrap___aeabi_uidivmod
+                0x10003594                div_u32u32
+                0x10003594                divmod_u32u32
+                0x1000359c                divmod_u32u32_unsafe
+                0x100035c4                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x100035dc      0x424 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100035dc                div_s64s64
-                0x100035dc                divmod_s64s64
-                0x100035dc                __wrap___aeabi_ldivmod
-                0x1000360c                divmod_u64u64
-                0x1000360c                div_u64u64
-                0x1000360c                __wrap___aeabi_uldivmod
-                0x1000361c                divmod_u64u64_savestate
-                0x1000363c                divmod_s64s64_unsafe
-                0x100036c4                divmod_u64u64_unsafe
+                0x100035e0      0x424 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100035e0                div_s64s64
+                0x100035e0                divmod_s64s64
+                0x100035e0                __wrap___aeabi_ldivmod
+                0x10003610                divmod_u64u64
+                0x10003610                div_u64u64
+                0x10003610                __wrap___aeabi_uldivmod
+                0x10003620                divmod_u64u64_savestate
+                0x10003640                divmod_s64s64_unsafe
+                0x100036c8                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10003a00       0x60 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a00                __wrap___aeabi_drsub
-                0x10003a06                __wrap___aeabi_dsub
-                0x10003a10                __wrap___aeabi_dadd
-                0x10003a1a                __wrap___aeabi_ddiv
-                0x10003a4e                __wrap___aeabi_dmul
+                0x10003a04       0x60 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a04                __wrap___aeabi_drsub
+                0x10003a0a                __wrap___aeabi_dsub
+                0x10003a14                __wrap___aeabi_dadd
+                0x10003a1e                __wrap___aeabi_ddiv
+                0x10003a52                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10003a60       0x6c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a60                __wrap___aeabi_cdrcmple
-                0x10003a70                __wrap___aeabi_cdcmpeq
-                0x10003a70                __wrap___aeabi_cdcmple
+                0x10003a64       0x6c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a64                __wrap___aeabi_cdrcmple
+                0x10003a74                __wrap___aeabi_cdcmpeq
+                0x10003a74                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10003acc        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003acc                __wrap___aeabi_dcmplt
+                0x10003ad0        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ad0                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10003ad8       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ad8                __wrap___aeabi_dcmple
+                0x10003adc       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003adc                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10003ae8       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ae8                __wrap___aeabi_dcmpge
+                0x10003aec       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003aec                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003af8        0xa CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003af8                __wrap___aeabi_dcmpgt
+                0x10003afc        0xa CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003afc                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10003b02       0x1c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b02                __wrap___aeabi_dcmpun
- *fill*         0x10003b1e        0x2 
+                0x10003b06       0x1c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b06                __wrap___aeabi_dcmpun
+ *fill*         0x10003b22        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003b20       0x38 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b20                __wrap___aeabi_ui2d
-                0x10003b28                __wrap___aeabi_i2d
+                0x10003b24       0x38 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b24                __wrap___aeabi_ui2d
+                0x10003b2c                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10003b58       0x48 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b58                double2int_z
-                0x10003b58                __wrap___aeabi_d2iz
+                0x10003b5c       0x48 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b5c                double2int_z
+                0x10003b5c                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10003ba0       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ba0                __wrap___aeabi_d2uiz
-                0x10003ba0                double2uint
+                0x10003ba4       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ba4                __wrap___aeabi_d2uiz
+                0x10003ba4                double2uint
  .text.missing_double_func_shim
-                0x10003bb0        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003bb4        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x10003bbc       0xcc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003bbc                __aeabi_double_init
+                0x10003bc0       0xcc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003bc0                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003c88       0x34 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003c88                double_table_shim_on_use_helper
+                0x10003c8c       0x34 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003c8c                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10003cbc       0x32 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10003cbc                __wrap___aeabi_lmul
- *fill*         0x10003cee        0x2 
+                0x10003cc0       0x32 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10003cc0                __wrap___aeabi_lmul
+ *fill*         0x10003cf2        0x2 
  .text.missing_float_func_shim
-                0x10003cf0        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10003cf4        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x10003cfc       0x88 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10003cfc                __aeabi_float_init
- .text          0x10003d84       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003d84                __aeabi_mem_init
- .text.memcpy   0x10003d94        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003d94                __wrap_memcpy
-                0x10003d94                __wrap___aeabi_memcpy
+                0x10003d00       0x88 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10003d00                __aeabi_float_init
+ .text          0x10003d88       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003d88                __aeabi_mem_init
+ .text.memcpy   0x10003d98        0xc CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003d98                __wrap_memcpy
+                0x10003d98                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10003da0        0xe CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10003dae        0x2 
+                0x10003da4        0xe CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10003db2        0x2 
  .text.stdio_out_chars_crlf
-                0x10003db0       0x80 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003db4       0x80 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x10003e30       0x44 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e34       0x44 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10003e74       0x20 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e78       0x20 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x10003e94       0x5c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003e94                stdout_serialize_begin
+                0x10003e98       0x5c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e98                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x10003ef0       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003ef0                stdout_serialize_end
+                0x10003ef4       0x10 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003ef4                stdout_serialize_end
  .text.stdio_put_string
-                0x10003f00       0x98 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f04       0x98 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_driver_enabled
-                0x10003f98       0x2c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003f98                stdio_set_driver_enabled
+                0x10003f9c       0x2c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f9c                stdio_set_driver_enabled
  .text.stdio_flush
-                0x10003fc4       0x20 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003fc4                stdio_flush
+                0x10003fc8       0x20 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003fc8                stdio_flush
  .text.__wrap_puts
-                0x10003fe4       0x1e CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003fe4                __wrap_puts
- *fill*         0x10004002        0x2 
+                0x10003fe8       0x1e CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003fe8                __wrap_puts
+ *fill*         0x10004006        0x2 
  .text.__wrap_vprintf
-                0x10004004       0x40 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004004                __wrap_vprintf
+                0x10004008       0x40 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004008                __wrap_vprintf
  .text.__wrap_printf
-                0x10004044       0x18 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004044                __wrap_printf
+                0x10004048       0x18 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004048                __wrap_printf
  .text.stdio_init_all
-                0x1000405c        0xa CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000405c                stdio_init_all
- *fill*         0x10004066        0x2 
+                0x10004060        0xa CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004060                stdio_init_all
+ *fill*         0x1000406a        0x2 
  .text.stdio_uart_out_chars
-                0x10004068       0x74 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000406c       0x74 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x100040dc       0x80 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100040dc                stdio_uart_in_chars
+                0x100040e0       0x80 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100040e0                stdio_uart_in_chars
  .text.on_uart_rx
-                0x1000415c       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004160       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x10004184       0x8c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004188       0x8c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init_full
-                0x10004210       0x44 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004210                stdio_uart_init_full
+                0x10004214       0x44 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004214                stdio_uart_init_full
  .text.stdio_uart_init
-                0x10004254       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004254                stdio_uart_init
- .text.strlen   0x1000427c       0x5c c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
-                0x1000427c                strlen
+                0x10004258       0x28 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004258                stdio_uart_init
+ .text.strlen   0x10004280       0x5c c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+                0x10004280                strlen
  *(.fini)
- .fini          0x100042d8        0x4 c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x100042d8                _fini
- *fill*         0x100042dc        0x4 
+ .fini          0x100042dc        0x4 c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x100042dc                _fini
  .fini.__stub   0x100042e0       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
@@ -2241,7 +2240,7 @@ LOAD CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_com
 LOAD CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD C:\Users\sulof\AppData\Local\Temp\ccESBlXl.o
+LOAD C:\Users\sulof\AppData\Local\Temp\ccsRsPEu.o
 LOAD c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2332,7 +2331,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000570       0x2c CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x0000059c       0x22 C:\Users\sulof\AppData\Local\Temp\ccESBlXl.o
+                0x0000059c       0x22 C:\Users\sulof\AppData\Local\Temp\ccsRsPEu.o
  .ARM.attributes
                 0x000005be       0x1e c:/picovittusaatana/pico-sdk-v1.5.0/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2555,39 +2554,39 @@ LOAD linker stubs
  .debug_ranges  0x00002f98      0x258 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_ranges  0x000031f0      0x2b0 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_line     0x00000000     0xf21a
- .debug_line    0x00000000      0xce6 CMakeFiles/pwm.dir/main.c.obj
- .debug_line    0x00000ce6      0xd3b CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00001a21      0x2df CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00001d00      0x4e2 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x000021e2      0x4de CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000026c0     0x1103 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x000037c3      0x280 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00003a43     0x1154 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00004b97     0x1c7b CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00006812      0xcd4 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000074e6      0x8fb CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00007de1      0x7ed CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x000085ce      0xa95 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00009063      0x5f0 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00009653      0x457 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00009aaa      0x2fb CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00009da5      0xbba CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000a95f     0x127e CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000bbdd      0x159 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000bd36      0x271 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000bfa7      0x2e2 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000c289      0x432 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000c6bb      0x3cb CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000ca86       0xa3 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000cb29       0xa9 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000cbd2      0x3e1 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000cfb3      0x393 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000d346       0xd3 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000d419       0xe1 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000d4fa      0x20d CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000d707      0xf79 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000e680      0xb9a CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_line     0x00000000     0xf216
+ .debug_line    0x00000000      0xce2 CMakeFiles/pwm.dir/main.c.obj
+ .debug_line    0x00000ce2      0xd3b CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00001a1d      0x2df CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x00001cfc      0x4e2 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x000021de      0x4de CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x000026bc     0x1103 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x000037bf      0x280 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00003a3f     0x1154 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00004b93     0x1c7b CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x0000680e      0xcd4 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000074e2      0x8fb CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00007ddd      0x7ed CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x000085ca      0xa95 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000905f      0x5f0 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000964f      0x457 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00009aa6      0x2fb CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00009da1      0xbba CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000a95b     0x127e CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000bbd9      0x159 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000bd32      0x271 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000bfa3      0x2e2 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000c285      0x432 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000c6b7      0x3cb CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000ca82       0xa3 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000cb25       0xa9 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000cbce      0x3e1 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000cfaf      0x393 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000d342       0xd3 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000d415       0xe1 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000d4f6      0x20d CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000d703      0xf79 CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000e67c      0xb9a CMakeFiles/pwm.dir/C_/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_str      0x00000000     0x3c32
  .debug_str     0x00000000      0x760 CMakeFiles/pwm.dir/main.c.obj

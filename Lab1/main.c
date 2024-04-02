@@ -2,6 +2,13 @@
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
 
+#define wrap_max 999
+#define clock_divder_max 125
+#define default_value 500
+#define led_max 1000
+#define led_step 50
+#define led_off 0
+
 int main() {
     const uint led_pin1 = 20;
     const uint led_pin2 = 21;
@@ -13,29 +20,29 @@ int main() {
     bool button_pressed = false;
     int led_brightness = 500;
 
-    uint slice_led1 = pwm_gpio_to_slice_num(20);
-    uint slice_led2 = pwm_gpio_to_slice_num(21);
-    uint slice_led3 = pwm_gpio_to_slice_num(22);
+    uint slice_led1 = pwm_gpio_to_slice_num(led_pin1);
+    uint slice_led2 = pwm_gpio_to_slice_num(led_pin2);
+    uint slice_led3 = pwm_gpio_to_slice_num(led_pin3);
 
-    uint pwm_channel1 = pwm_gpio_to_channel(20);
-    uint pwm_channel2 = pwm_gpio_to_channel(21);
-    uint pwm_channel3 = pwm_gpio_to_channel(22);
+    uint pwm_channel1 = pwm_gpio_to_channel(led_pin1);
+    uint pwm_channel2 = pwm_gpio_to_channel(led_pin2);
+    uint pwm_channel3 = pwm_gpio_to_channel(led_pin3);
 
     pwm_set_enabled(slice_led1, false);
     pwm_set_enabled(slice_led2, false);
     pwm_set_enabled(slice_led3, false);
 
     pwm_config config = pwm_get_default_config();
-    pwm_config_set_clkdiv_int(&config, 125);
-    pwm_config_set_wrap(&config,1000);
+    pwm_config_set_clkdiv_int(&config, clock_divder_max);
+    pwm_config_set_wrap(&config,wrap_max);
 
     pwm_init(slice_led1,&config,false);
     pwm_init(slice_led2,&config,false);
     pwm_init(slice_led3,&config,false);
 
-    pwm_set_chan_level(slice_led1, pwm_channel1, 500);
-    pwm_set_chan_level(slice_led2, pwm_channel2, 500);
-    pwm_set_chan_level(slice_led3, pwm_channel3, 500);
+    pwm_set_chan_level(slice_led1, pwm_channel1, default_value);
+    pwm_set_chan_level(slice_led2, pwm_channel2, default_value);
+    pwm_set_chan_level(slice_led3, pwm_channel3, default_value);
 
     gpio_set_function(led_pin1, GPIO_FUNC_PWM);
     gpio_set_function(led_pin2, GPIO_FUNC_PWM);
@@ -62,8 +69,8 @@ int main() {
         if (!gpio_get(button_dim_up) && led_toggle) {
             printf("Dimming up...\n");
 
-            if (led_brightness < 1000) {
-                led_brightness += 50;
+            if (led_brightness < led_max) {
+                led_brightness += led_step;
             }
 
             pwm_set_chan_level(slice_led1, pwm_channel1, led_brightness);
@@ -73,11 +80,11 @@ int main() {
 
         else if (!gpio_get(button_dim_down) && led_toggle) {
             printf("Dimming down...\n");
-            if (led_brightness >= 50) {
-                led_brightness -= 50;
+            if (led_brightness >= led_step) {
+                led_brightness -= led_step;
             }
             else {
-                led_brightness = 0;
+                led_brightness = led_off;
             }
 
             pwm_set_chan_level(slice_led1, pwm_channel1, led_brightness);
@@ -88,7 +95,7 @@ int main() {
             button_pressed = true;
 
             if (led_toggle && led_brightness == 0) {
-                led_brightness = 500;
+                led_brightness = default_value;
                 pwm_set_chan_level(slice_led1, pwm_channel1, led_brightness);
                 pwm_set_chan_level(slice_led2, pwm_channel2, led_brightness);
                 pwm_set_chan_level(slice_led3, pwm_channel3, led_brightness);
@@ -104,9 +111,9 @@ int main() {
                 else {
                     printf("Leds off...\n");
                     led_toggle = false;
-                    pwm_set_chan_level(slice_led1, pwm_channel1, 0);
-                    pwm_set_chan_level(slice_led2, pwm_channel2, 0);
-                    pwm_set_chan_level(slice_led3, pwm_channel3, 0);
+                    pwm_set_chan_level(slice_led1, pwm_channel1, led_off);
+                    pwm_set_chan_level(slice_led2, pwm_channel2, led_off);
+                    pwm_set_chan_level(slice_led3, pwm_channel3, led_off);
                 }
             }
         }
