@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.1.0-18-amd64")
-set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.1.0-18-amd64")
-set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
+set(CMAKE_HOST_SYSTEM "Windows-10.0.22631")
+set(CMAKE_HOST_SYSTEM_NAME "Windows")
+set(CMAKE_HOST_SYSTEM_VERSION "10.0.22631")
+set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("/home/sulo/paska/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
+include("H:/Metropolia/IOT/Pico/Pico-SDK-v1.5.0/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
 
 set(CMAKE_SYSTEM "PICO")
 set(CMAKE_SYSTEM_NAME "PICO")

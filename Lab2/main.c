@@ -23,6 +23,7 @@ static queue_t events_counterclockwise;
 volatile bool toggle_leds = false;
 volatile bool clockwise = false;
 volatile bool counterclockwise = false;
+volatile uint16_t prev_brightness = PWM_MAX / 2; // Store previous brightness level
 
 uint16_t steps = PWM_MAX / 2;
 
@@ -44,8 +45,8 @@ void gpio_handler() {
     static bool prev_state_a = false;
     static bool prev_state_b = false;
 
-    bool state_a = gpio_get(ROT_CCW);
-    bool state_b = gpio_get(ROT_CW);
+    bool state_a = gpio_get(ROT_CW);
+    bool state_b = gpio_get(ROT_CCW);
 
     if (toggle_leds) {
         if (state_a != prev_state_a) {
@@ -67,15 +68,18 @@ void gpio_handler() {
 void led_toggle() {
     if (!gpio_get(ROT_TOGGLE)) {
         toggle_leds = !toggle_leds;
-
-        if (steps == 0) {
-            steps = 500;
-            control_leds();
+        if (steps == 0 && !toggle_leds) {
+            steps = PWM_MAX / 2;
             toggle_leds = true;
         }
-        else {
-            control_leds(0);
+        else if (toggle_leds) {
+            steps = prev_brightness;
         }
+        else {
+            prev_brightness = steps;
+            steps = 0;
+        }
+        control_leds();
     }
 }
 
