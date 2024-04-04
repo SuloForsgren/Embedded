@@ -1,13 +1,13 @@
 # Target labels
  ELF2UF2Build
 # Source files and their labels
-C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/CMakeFiles/ELF2UF2Build
-C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/CMakeFiles/ELF2UF2Build.rule
-C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/CMakeFiles/ELF2UF2Build-complete.rule
-C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
-C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
-C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
-C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
-C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
-C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
-C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
+/home/sulo/paska/Embedded/Lab2/cmake-build-debug/CMakeFiles/ELF2UF2Build
+/home/sulo/paska/Embedded/Lab2/cmake-build-debug/CMakeFiles/ELF2UF2Build.rule
+/home/sulo/paska/Embedded/Lab2/cmake-build-debug/CMakeFiles/ELF2UF2Build-complete.rule
+/home/sulo/paska/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/sulo/paska/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/sulo/paska/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/sulo/paska/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/sulo/paska/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/sulo/paska/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/sulo/paska/Embedded/Lab2/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

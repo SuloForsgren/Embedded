@@ -1,8 +1,8 @@
-# Install script for directory: C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk
+# Install script for directory: /home/sulo/paska/pico/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pwm")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,14 +34,14 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/pico-sdk/tools/cmake_install.cmake")
-  include("C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/pico-sdk/src/cmake_install.cmake")
-  include("C:/Metropolia/Ohjelmointi/Embedded/Lab2/cmake-build-debug/pico-sdk/docs/cmake_install.cmake")
+  include("/home/sulo/paska/Embedded/Lab2/cmake-build-debug/pico-sdk/tools/cmake_install.cmake")
+  include("/home/sulo/paska/Embedded/Lab2/cmake-build-debug/pico-sdk/src/cmake_install.cmake")
+  include("/home/sulo/paska/Embedded/Lab2/cmake-build-debug/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,3 @@
-ToolSet: 11.0 w64 (local)@C:\Users\sulof\Downloads\mingw64
-Options: 
+ToolSet: 1.0 (local)Options: 
 
-Options:
+Options:-DCMAKE_MAKE_PROGRAM=/home/sulo/clion/clion-2023.3.4/bin/ninja/linux/x64/ninja

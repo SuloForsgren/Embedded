@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/tools/elf2uf2
+source_dir=/home/sulo/paska/pico/pico-sdk/tools/elf2uf2
 work_dir=
 

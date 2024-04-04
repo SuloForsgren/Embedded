@@ -2,7 +2,6 @@
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
 
-#define wrap_max 999
 #define clock_divder_max 125
 #define default_value 500
 #define led_max 1000
@@ -34,7 +33,7 @@ int main() {
 
     pwm_config config = pwm_get_default_config();
     pwm_config_set_clkdiv_int(&config, clock_divder_max);
-    pwm_config_set_wrap(&config,wrap_max);
+    pwm_config_set_wrap(&config,led_max - 1);
 
     pwm_init(slice_led1,&config,false);
     pwm_init(slice_led2,&config,false);

@@ -1,7 +1,7 @@
-set(CMAKE_C_COMPILER "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe")
+set(CMAKE_C_COMPILER "/usr/bin/arm-none-eabi-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
-set(CMAKE_C_COMPILER_VERSION "10.3.1")
+set(CMAKE_C_COMPILER_VERSION "12.2.1")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "17")
@@ -21,11 +21,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-ar.exe")
-set(CMAKE_C_COMPILER_AR "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ar.exe")
-set(CMAKE_RANLIB "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-ld.exe")
+set(CMAKE_AR "/usr/bin/arm-none-eabi-ar")
+set(CMAKE_C_COMPILER_AR "/usr/bin/arm-none-eabi-gcc-ar")
+set(CMAKE_RANLIB "/usr/bin/arm-none-eabi-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/usr/bin/arm-none-eabi-gcc-ranlib")
+set(CMAKE_LINKER "/usr/bin/arm-none-eabi-ld")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCC 1)
@@ -68,7 +68,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc/arm-none-eabi/12.2.1/include;/usr/lib/gcc/arm-none-eabi/12.2.1/include-fixed;/usr/lib/arm-none-eabi/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib/thumb/v6-m/nofp;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/lib/gcc;C:/PicoVittuSaatana/Pico-SDK-v1.5.0/gcc-arm-none-eabi/arm-none-eabi/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp;/usr/lib/arm-none-eabi/lib/thumb/v6-m/nofp;/usr/lib/gcc/arm-none-eabi/12.2.1;/usr/lib/arm-none-eabi/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

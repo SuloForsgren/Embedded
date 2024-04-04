@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/PicoVittuSaatana/Pico-SDK-v1.5.0/pico-sdk/tools/elf2uf2"
-  "C:/Metropolia/Ohjelmointi/Embedded/Lab1/cmake-build-debug/elf2uf2"
-  "C:/Metropolia/Ohjelmointi/Embedded/Lab1/cmake-build-debug/elf2uf2"
-  "C:/Metropolia/Ohjelmointi/Embedded/Lab1/cmake-build-debug/elf2uf2/tmp"
-  "C:/Metropolia/Ohjelmointi/Embedded/Lab1/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp"
-  "C:/Metropolia/Ohjelmointi/Embedded/Lab1/cmake-build-debug/elf2uf2/src"
-  "C:/Metropolia/Ohjelmointi/Embedded/Lab1/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp"
+  "/home/sulo/paska/pico/pico-sdk/tools/elf2uf2"
+  "/home/sulo/paska/Embedded/Lab1/cmake-build-debug/elf2uf2"
+  "/home/sulo/paska/Embedded/Lab1/cmake-build-debug/elf2uf2"
+  "/home/sulo/paska/Embedded/Lab1/cmake-build-debug/elf2uf2/tmp"
+  "/home/sulo/paska/Embedded/Lab1/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp"
+  "/home/sulo/paska/Embedded/Lab1/cmake-build-debug/elf2uf2/src"
+  "/home/sulo/paska/Embedded/Lab1/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Metropolia/Ohjelmointi/Embedded/Lab1/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/sulo/paska/Embedded/Lab1/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Metropolia/Ohjelmointi/Embedded/Lab1/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/sulo/paska/Embedded/Lab1/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()
