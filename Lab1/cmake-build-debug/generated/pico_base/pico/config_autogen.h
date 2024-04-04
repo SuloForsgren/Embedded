@@ -4,8 +4,8 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "/home/sulo/paska/pico/pico-sdk/src/boards/include/boards/pico_w.h"
+#include "H:/Metropolia/IOT/Pico/Pico-SDK-v1.5.0/pico-sdk/src/boards/include/boards/pico_w.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:
 
-#include "/home/sulo/paska/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
+#include "H:/Metropolia/IOT/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"

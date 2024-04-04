@@ -17,7 +17,7 @@
 rule ASM_COMPILER__pwm_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = ${LAUNCHER}${CODE_CHECK}H:\Metropolia\IOT\Pico\Pico-SDK-v1.5.0\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building ASM object $out
 
 
@@ -27,7 +27,7 @@ rule ASM_COMPILER__pwm_unscanned_Debug
 rule C_COMPILER__pwm_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}H:\Metropolia\IOT\Pico\Pico-SDK-v1.5.0\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -37,7 +37,7 @@ rule C_COMPILER__pwm_unscanned_Debug
 rule CXX_COMPILER__pwm_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/arm-none-eabi-g++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}H:\Metropolia\IOT\Pico\Pico-SDK-v1.5.0\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -45,8 +45,10 @@ rule CXX_COMPILER__pwm_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__pwm_Debug
-  command = $PRE_LINK && /usr/bin/arm-none-eabi-g++ $FLAGS -Wl,--build-id=none $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && H:\Metropolia\IOT\Pico\Pico-SDK-v1.5.0\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $FLAGS -Wl,--build-id=none $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE  && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
+  rspfile = $RSP_FILE
+  rspfile_content = $in $LINK_PATH $LINK_LIBRARIES
   restat = $RESTAT
 
 
@@ -64,7 +66,7 @@ rule CUSTOM_COMMAND
 rule ASM_COMPILER__bs2_default_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/usr/bin/arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = ${LAUNCHER}${CODE_CHECK}H:\Metropolia\IOT\Pico\Pico-SDK-v1.5.0\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building ASM object $out
 
 
@@ -72,7 +74,7 @@ rule ASM_COMPILER__bs2_default_unscanned_Debug
 # Rule for linking ASM executable.
 
 rule ASM_EXECUTABLE_LINKER__bs2_default_Debug
-  command = $PRE_LINK && /usr/bin/arm-none-eabi-gcc $FLAGS -Wl,--build-id=none $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && H:\Metropolia\IOT\Pico\Pico-SDK-v1.5.0\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $FLAGS -Wl,--build-id=none $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking ASM executable $TARGET_FILE
   restat = $RESTAT
 
@@ -81,7 +83,7 @@ rule ASM_EXECUTABLE_LINKER__bs2_default_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/sulo/clion/clion-2023.3.4/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/sulo/paska/Embedded/Lab1 -B/home/sulo/paska/Embedded/Lab1/cmake-build-debug
+  command = "H:\Clion\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SH:\Metropolia\IOT\Embedded\Lab1 -BH:\Metropolia\IOT\Embedded\Lab1\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -90,7 +92,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /home/sulo/clion/clion-2023.3.4/bin/ninja/linux/x64/ninja $FILE_ARG -t clean $TARGETS
+  command = "H:\Clion\CLion 2023.3.4\bin\ninja\win\x64\ninja.exe" $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -98,6 +100,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /home/sulo/clion/clion-2023.3.4/bin/ninja/linux/x64/ninja -t targets
+  command = "H:\Clion\CLion 2023.3.4\bin\ninja\win\x64\ninja.exe" -t targets
   description = All primary targets available:
 
