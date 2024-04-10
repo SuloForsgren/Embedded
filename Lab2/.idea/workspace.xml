@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -30,279 +30,26 @@
   <component name="ChangeListManager">
     <list default="true" id="599e90b9-8563-4388-865c-a544955bc8f4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-e68c4bdfb9183bb864a8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-357b7f202ca0b5fe190d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-50b3e907bbbdeba905bc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk-Debug-52e63ae9df4d7afb3d5f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.docs-Debug-ba5947c581ead6645b3f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src-Debug-2b1e6c2be7a4ae7eb8da.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common-Debug-59131a4379236151966b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.boot_picoboot-Debug-93f5ebf240a7eba932b3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.boot_uf2-Debug-0415aff6b64ee98f5f71.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.pico_base-Debug-3bc64b557b503eeabbf2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.pico_binary_info-Debug-f5afde2d9b60da27a897.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.pico_bit_ops-Debug-ab65d6a581d716cec967.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.pico_divider-Debug-bc7959ac866f4fa979ac.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.pico_stdlib-Debug-42b5d9c2dba3632feadd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.pico_sync-Debug-c8c3c43de181e0be9fe4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.pico_time-Debug-86d75cd80e7aecefc71c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.pico_usb_reset_interface-Debug-53537e74e364566fef2f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.common.pico_util-Debug-967cde6f5fed4f60050d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2040-Debug-73705f1094f4fb94a9e8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2040.hardware_regs-Debug-63a57cc4c277f57c9cbe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2040.hardware_structs-Debug-ce3760401c26e55b35bf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common-Debug-f29ceaeae7631fb88b8c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.boot_stage2-Debug-e1793b852e59c19cb55a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.cmsis-Debug-94853cb4acad0ef25d4c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_adc-Debug-84c66f6bab4bebd86ce3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_base-Debug-b1173db328fbb4ed93c7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_claim-Debug-01603f8bc825831d132c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_clocks-Debug-69a3fdf2b2b90de6a69e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_divider-Debug-84b704e60601e470f043.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_dma-Debug-2a3c810dcb3e76b0cd68.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_exception-Debug-59d5ace59f1fa02604bc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_flash-Debug-a6640ded15f94f371167.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_gpio-Debug-71447e7b80d42313bd12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_i2c-Debug-4fed123b19d1344ef895.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_interp-Debug-252f616fc2d8ae221aef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_irq-Debug-50649e5f0ccb402ae86e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_pio-Debug-ec8226457441c741cb39.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_pll-Debug-e556004746f04c793b35.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_pwm-Debug-2b9c8222ab508bae419c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_resets-Debug-3e39ff985f9f765c98c7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_rtc-Debug-fa0f776cebbe3b3fe3b5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_spi-Debug-a5547db20e0e4b8a30aa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_sync-Debug-563d2a9077d2684b61f2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_timer-Debug-f3444fe61d48c3af3536.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_uart-Debug-2a12835a7634c6953433.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_vreg-Debug-243c1589b1d58d6b8f83.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_watchdog-Debug-932d3d42a7af3e43f9dc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.hardware_xosc-Debug-2f6a446416bf1b9550cd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_async_context-Debug-6512108092c23cebd483.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_bit_ops-Debug-428c8cbafb55dc2592b6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_bootrom-Debug-e26879f3903c4c534732.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_bootsel_via_double_reset-Debug-aceb75fbd1524726f5f4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_btstack-Debug-7a1a58c4de0708b001da.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_cxx_options-Debug-04eb8c71a836373d7bfc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_cyw43_arch-Debug-87f010469c52d56bd3ef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_cyw43_driver-Debug-607b2843cbfca6001ea7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_divider-Debug-2ada88ceb5b457fc7ca7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_double-Debug-7a34419d73385bd22073.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_fix-Debug-02adbf6da19e30ce621a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_fix.rp2040_usb_device_enumeration-Debug-5722dcd504083447cbce.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_flash-Debug-7391b86b8d89f335962a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_float-Debug-ced16e60cae7f6585ae6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_i2c_slave-Debug-7485ae5c571d68e8d206.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_int64_ops-Debug-953efa37cd709da0c1eb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_lwip-Debug-eb9521838de147df85a5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_malloc-Debug-b162909c2f6c3ad23585.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_mbedtls-Debug-1ce465599e9b882fbbab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_mem_ops-Debug-8006902e2dbd82cc914f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_multicore-Debug-6734f7d93120945896dc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_platform-Debug-d6ae8bf575fca5e08eb0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_printf-Debug-e2428a5b1eecf88b6eb9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_rand-Debug-8d58a76233fce13d7bae.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_runtime-Debug-d1f142d95888a9dc7def.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_standard_link-Debug-28cf02b9471c55033e8d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_stdio-Debug-cb1a2579a2c7b0ab6645.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_stdio_semihosting-Debug-860309dab91cc3e8e088.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_stdio_uart-Debug-54d63b8e9cccc3f8c3cf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_stdio_usb-Debug-97c380083539073ab4a0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_stdlib-Debug-892581665d1dd31d757e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.pico_unique_id-Debug-60a95aab59f19e3f4440.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.src.rp2_common.tinyusb-Debug-5d9d4faa8e7ddd7f6758.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-pico-sdk.tools-Debug-0ea053a6a271e69ede85.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-04T10-21-10-0376.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ELF2UF2Build-Debug-cbb06831d395661a330c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-bs2_default-Debug-229bd8a836f41564abd7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-bs2_default_bin-Debug-7f4db20cf911662dfaf1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-bs2_default_padded_checksummed_asm-Debug-7bf753b2be0f11f84862.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gpio_interrupt-Debug-a5dc3d4df3d1ecbc4b67.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-20845fca8ef2ef52fbd7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeASMCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeASMCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ELF2UF2Build.dir/Labels.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ELF2UF2Build.dir/Labels.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ELF2UF2Build.dir/Labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ELF2UF2Build.dir/Labels.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/common/pico_sync/sem.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/common/pico_time/time.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/common/pico_util/datetime.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/common/pico_util/pheap.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/common/pico_util/queue.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gpio_interrupt.dir/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bs2_default.elf.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bs2_default.elf.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/3.27.8/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/elf2uf2.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/boot_uf2_headers/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/boot_uf2_headers/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/elf2uf2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/generated/pico_base/pico/config_autogen.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/generated/pico_base/pico/config_autogen.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/generated/pico_base/pico/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/generated/pico_base/pico/version.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.dis" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.dis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.elf.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.elf.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.uf2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gpio_interrupt.uf2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/docs/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/docs/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/boot_picoboot/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/boot_picoboot/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/boot_uf2/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/boot_uf2/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_base/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_base/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_binary_info/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_binary_info/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_bit_ops/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_divider/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_divider/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_stdlib/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_stdlib/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_sync/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_sync/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_time/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_time/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_usb_reset_interface/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_util/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/common/pico_util/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2040/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2040/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.dis" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.dis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/boot_stage2/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/cmsis/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/cmsis/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_adc/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_adc/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_base/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_base/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_claim/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_claim/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_clocks/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_clocks/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_divider/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_divider/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_dma/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_dma/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_exception/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_exception/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_flash/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_flash/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_gpio/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_gpio/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_i2c/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_i2c/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_interp/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_interp/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_irq/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_irq/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_pio/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_pio/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_pll/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_pll/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_pwm/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_pwm/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_resets/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_resets/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_rtc/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_rtc/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_spi/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_spi/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_sync/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_sync/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_timer/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_timer/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_uart/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_uart/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_vreg/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_vreg/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_watchdog/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_watchdog/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_xosc/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/hardware_xosc/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_async_context/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_async_context/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_bit_ops/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_bit_ops/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_bootrom/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_bootrom/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_btstack/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_btstack/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_cxx_options/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_cxx_options/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_arch/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_arch/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_cyw43_driver/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_divider/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_divider/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_double/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_double/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_fix/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_fix/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_flash/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_float/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_float/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_i2c_slave/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_i2c_slave/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_int64_ops/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_int64_ops/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_lwip/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_lwip/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_malloc/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_malloc/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_mbedtls/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_mbedtls/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_mem_ops/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_mem_ops/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_multicore/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_multicore/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_platform/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_platform/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_printf/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_printf/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_rand/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_rand/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_runtime/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_runtime/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_standard_link/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_standard_link/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_stdio/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_stdio/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_stdio_semihosting/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_stdio_semihosting/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_stdio_uart/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_stdio_uart/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_stdio_usb/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_stdio_usb/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_stdlib/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_stdlib/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_unique_id/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/pico_unique_id/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/tinyusb/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/src/rp2_common/tinyusb/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/tools/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/pico-sdk/tools/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/cmake-build-debug/CMakeFiles/uart.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/cmake-build-debug/CMakeFiles/uart.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.dis" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.dis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.elf" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.elf.map" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.elf.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.uf2" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/cmake-build-debug/uart.uf2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Pico/Pico-SDK-v1.5.0/pico-sdk/lib/tinyusb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pico/Pico-SDK-v1.5.0/pico-sdk/lib/tinyusb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pico/Pico-SDK-v1.5.0/pico-sdk/lib/tinyusb/docs/contributing/code_of_conduct.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pico/Pico-SDK-v1.5.0/pico-sdk/lib/tinyusb/docs/contributing/code_of_conduct.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pico/Pico-SDK-v1.5.0/pico-sdk/lib/tinyusb/docs/info/contributors.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../../Pico/Pico-SDK-v1.5.0/pico-sdk/lib/tinyusb/docs/info/contributors.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,10 +68,10 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="3.4" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2edfDsk7tnUofR3L3SjQsgASwCB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -340,7 +87,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "H:/Metropolia/IOT/Embedded/Lab2/CMakeLists.txt",
+    "last_opened_file_path": "H:/Metropolia/IOT/Embedded/Lab2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -350,11 +97,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.gpio_interrupt">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ELF2UF2Build" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gpio_interrupt" TARGET_NAME="ELF2UF2Build" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -430,6 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712239259430</updated>
       <workItem from="1712239260940" duration="3024000" />
+      <workItem from="1712775531718" duration="430000" />
     </task>
     <servers />
   </component>

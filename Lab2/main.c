@@ -5,160 +5,161 @@
 #include "hardware/pwm.h"
 #include "hardware/irq.h"
 
-#define LED1 20
-#define LED2 21
-#define LED3 22
+#define LED_PIN_0 20
+#define LED_PIN_1 21
+#define LED_PIN_2 22
 
-#define ROT_CCW 10
-#define ROT_CW 11
-#define ROT_TOGGLE 12
+#define ROTARY_A_PIN 10
+#define ROTARY_B_PIN 11
+#define ROTARY_SWITCH_PIN 12
 
-#define PWM_MAX 1000
-#define LED_STEP 50
-#define DEBOUNCE 100
+#define PWM_TOP_VALUE (1000)
+#define PWM_CHANGE_STEP 25
+#define DEBOUNCE_DELAY_MS 100
 
-static queue_t events_clockwise;
-static queue_t events_counterclockwise;
+typedef enum {
+    ROTATION_CLOCKWISE,
+    ROTATION_COUNTERCLOCKWISE
+} RotationDirection;
 
-volatile bool toggle_leds = false;
-volatile bool clockwise = false;
-volatile bool counterclockwise = false;
-volatile uint16_t prev_brightness = PWM_MAX / 2; // Store previous brightness level
+static queue_t rotation_events_queue;
 
-uint16_t steps = PWM_MAX / 2;
+volatile bool leds_enabled = false;
 
-void control_leds() {
-    uint slice_num_1 = pwm_gpio_to_slice_num(LED1);
-    uint slice_num_2 = pwm_gpio_to_slice_num(LED2);
-    uint slice_num_3 = pwm_gpio_to_slice_num(LED3);
+void initializeGPIO(void) {
+    gpio_init(ROTARY_SWITCH_PIN);
+    gpio_set_dir(ROTARY_SWITCH_PIN, GPIO_IN);
+    gpio_pull_up(ROTARY_SWITCH_PIN);
 
-    uint channel_num_1 = pwm_gpio_to_channel(LED1);
-    uint channel_num_2 = pwm_gpio_to_channel(LED2);
-    uint channel_num_3 = pwm_gpio_to_channel(LED3);
+    gpio_init(ROTARY_A_PIN);
+    gpio_set_dir(ROTARY_A_PIN, GPIO_IN);
 
-    pwm_set_chan_level(slice_num_1, channel_num_1, steps);
-    pwm_set_chan_level(slice_num_2, channel_num_2, steps);
-    pwm_set_chan_level(slice_num_3, channel_num_3, steps);
+    gpio_init(ROTARY_B_PIN);
+    gpio_set_dir(ROTARY_B_PIN, GPIO_IN);
 }
 
-void gpio_handler() {
-    static bool prev_state_a = false;
-    static bool prev_state_b = false;
+void initializePWM(void) {
+    uint pwm_slices[] = {
+            pwm_gpio_to_slice_num(LED_PIN_0),
+            pwm_gpio_to_slice_num(LED_PIN_1),
+            pwm_gpio_to_slice_num(LED_PIN_2)
+    };
 
-    bool state_a = gpio_get(ROT_CW);
-    bool state_b = gpio_get(ROT_CCW);
+    pwm_set_enabled(pwm_slices[0], false);
+    pwm_set_enabled(pwm_slices[1], false);
+    pwm_set_enabled(pwm_slices[2], false);
 
-    if (toggle_leds) {
-        if (state_a != prev_state_a) {
-            if (state_a == state_b) {
-                clockwise = true;
-                queue_try_add(&events_clockwise, &clockwise);
-            }
-            else {
-                counterclockwise = true;
-                queue_try_add(&events_counterclockwise, &counterclockwise);
-            }
-        }
+    pwm_config pwm_config_default = pwm_get_default_config();
+    pwm_config_set_clkdiv_int(&pwm_config_default, 125);
+    pwm_config_set_wrap(&pwm_config_default, PWM_TOP_VALUE - 1);
+
+    for (int i = 0; i < 3; i++) {
+        pwm_init(pwm_slices[i], &pwm_config_default, false);
+        gpio_set_function(LED_PIN_0 + i, GPIO_FUNC_PWM);
+        pwm_set_enabled(pwm_slices[i], true);
     }
-
-    prev_state_a = state_a;
-    prev_state_b = state_b;
 }
 
-void led_toggle() {
-    if (!gpio_get(ROT_TOGGLE)) {
-        toggle_leds = !toggle_leds;
-        if (steps == 0 && !toggle_leds) {
-            steps = PWM_MAX / 2;
-            toggle_leds = true;
-        }
-        else if (toggle_leds) {
-            steps = prev_brightness;
+void setLedBrightness(uint16_t brightness) {
+    for (int i = 0; i < 3; i++) {
+        uint pwm_slice = pwm_gpio_to_slice_num(LED_PIN_0 + i);
+        uint pwm_channel = pwm_gpio_to_channel(LED_PIN_0 + i);
+        pwm_set_chan_level(pwm_slice, pwm_channel, brightness);
+    }
+}
+
+void handleRotationEvent(bool isClockwise) {
+    if (leds_enabled) {
+        RotationDirection direction = isClockwise ? ROTATION_CLOCKWISE : ROTATION_COUNTERCLOCKWISE;
+        queue_try_add(&rotation_events_queue, &direction);
+    }
+}
+
+
+void toggleLeds(uint16_t *brightness) {
+    if (!leds_enabled) {
+        setLedBrightness(*brightness);
+        leds_enabled = true;
+    }
+    else {
+        if (*brightness == 0) {
+            *brightness = 500;
+            setLedBrightness(*brightness);
         }
         else {
-            prev_brightness = steps;
-            steps = 0;
+            setLedBrightness(0);
+            leds_enabled = false;
         }
-        control_leds();
     }
 }
 
+void rotaryEncoderISR(void) {
+    static bool previousStateA = false;
+    static bool previousStateB = false;
 
-int main() {
-    gpio_init(ROT_TOGGLE);
-    gpio_set_dir(ROT_TOGGLE, GPIO_IN);
-    gpio_pull_up(ROT_TOGGLE);
+    bool currentStateA = gpio_get(ROTARY_B_PIN);
+    bool currentStateB = gpio_get(ROTARY_A_PIN);
 
-    gpio_init(ROT_CCW);
-    gpio_set_dir(ROT_CCW, GPIO_IN);
-
-    gpio_init(ROT_CW);
-    gpio_set_dir(ROT_CW, GPIO_IN);
-
-    uint slice_num_1 = pwm_gpio_to_slice_num(LED1);
-    uint slice_num_2 = pwm_gpio_to_slice_num(LED2);
-    uint slice_num_3 = pwm_gpio_to_slice_num(LED3);
-
-    pwm_set_enabled(slice_num_1, false);
-    pwm_set_enabled(slice_num_2, false);
-    pwm_set_enabled(slice_num_3, false);
-
-    pwm_config config = pwm_get_default_config();
-    pwm_config_set_clkdiv_int(&config, 125);
-    pwm_config_set_wrap(&config, PWM_MAX - 1);
-
-    pwm_init(slice_num_1, &config, false);
-    pwm_init(slice_num_2, &config, false);
-    pwm_init(slice_num_3, &config, false);
-
-    gpio_set_function(LED1, GPIO_FUNC_PWM);
-    gpio_set_function(LED2, GPIO_FUNC_PWM);
-    gpio_set_function(LED3, GPIO_FUNC_PWM);
-
-    pwm_set_enabled(slice_num_1, true);
-    pwm_set_enabled(slice_num_2, true);
-    pwm_set_enabled(slice_num_3, true);
-
-    stdio_init_all();
-
-    queue_init(&events_clockwise, sizeof(bool), 10);
-    queue_init(&events_counterclockwise, sizeof(bool), 10);
-
-    gpio_set_irq_enabled_with_callback(ROT_CW, GPIO_IRQ_EDGE_FALL | GPIO_IRQ_EDGE_RISE, true, &gpio_handler);
-    gpio_set_irq_enabled_with_callback(ROT_CCW, GPIO_IRQ_EDGE_FALL | GPIO_IRQ_EDGE_RISE, true, &gpio_handler);
-
-    bool prev_rot_sw_state = gpio_get(ROT_TOGGLE);
-
-    while (true) {
-        bool rot_sw_state = !gpio_get(ROT_TOGGLE);
-        if (rot_sw_state != prev_rot_sw_state) {
-            sleep_ms(DEBOUNCE);
-            prev_rot_sw_state = rot_sw_state;
-            if (rot_sw_state) {
-                led_toggle();
-            }
+    if (currentStateA != previousStateA) {
+        if (currentStateA == currentStateB) {
+            handleRotationEvent(true);
         }
-
-        while (queue_try_remove(&events_clockwise, &clockwise)) {
-            steps += LED_STEP;
-            if (steps > PWM_MAX) {
-                steps = PWM_MAX;
-            }
-            control_leds();
-        }
-
-        while (queue_try_remove(&events_counterclockwise, &counterclockwise)) {
-            if (steps < LED_STEP) {
-                steps = 0;
-            } else {
-                steps -= LED_STEP;
-            }
-            control_leds();
+        else {
+            handleRotationEvent(false);
         }
     }
 
-    queue_free(&events_clockwise);
-    queue_free(&events_counterclockwise);
+    previousStateA = currentStateA;
+    previousStateB = currentStateB;
+}
+
+int main(void) {
+    stdio_init_all();
+
+    initializeGPIO();
+    initializePWM();
+
+    queue_init(&rotation_events_queue, sizeof(RotationDirection), 10);
+
+    uint16_t brightnessLevel = PWM_TOP_VALUE / 2;
+
+    gpio_set_irq_enabled_with_callback(ROTARY_A_PIN, GPIO_IRQ_EDGE_FALL | GPIO_IRQ_EDGE_RISE, true, &rotaryEncoderISR);
+    gpio_set_irq_enabled_with_callback(ROTARY_B_PIN, GPIO_IRQ_EDGE_FALL | GPIO_IRQ_EDGE_RISE, true, &rotaryEncoderISR);
+
+    bool previousRotarySwitchState = !gpio_get(ROTARY_SWITCH_PIN);
+
+    while (true) {
+        bool currentRotarySwitchState = !gpio_get(ROTARY_SWITCH_PIN);
+
+        if (currentRotarySwitchState != previousRotarySwitchState) {
+            busy_wait_ms(DEBOUNCE_DELAY_MS);
+            previousRotarySwitchState = currentRotarySwitchState;
+            if (currentRotarySwitchState) {
+                toggleLeds(&brightnessLevel);
+            }
+        }
+
+        RotationDirection rotationDirection;
+        while (queue_try_remove(&rotation_events_queue, &rotationDirection)) {
+            if (rotationDirection == ROTATION_CLOCKWISE) {
+                brightnessLevel += PWM_CHANGE_STEP;
+                if (brightnessLevel > PWM_TOP_VALUE) {
+                    brightnessLevel = PWM_TOP_VALUE;
+                }
+            }
+            else {
+                if (brightnessLevel < PWM_CHANGE_STEP) {
+                    brightnessLevel = 0;
+                }
+                else {
+                    brightnessLevel -= PWM_CHANGE_STEP;
+                }
+            }
+            setLedBrightness(brightnessLevel);
+        }
+    }
+
+    queue_free(&rotation_events_queue);
 
     return 0;
 }
