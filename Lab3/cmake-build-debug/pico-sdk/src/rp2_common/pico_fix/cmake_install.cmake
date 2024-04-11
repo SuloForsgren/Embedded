@@ -1,8 +1,8 @@
-# Install script for directory: H:/Metropolia/IOT/Pico/Pico-SDK-v1.5.0/pico-sdk/src/rp2_common/pico_fix
+# Install script for directory: /home/sulo/paska/pico/pico-sdk/src/rp2_common/pico_fix
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/uart")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "H:/Metropolia/IOT/Pico/Pico-SDK-v1.5.0/gcc-arm-none-eabi/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake")
+  include("/home/sulo/paska/Embedded/Lab3/cmake-build-debug/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake")
 
 endif()
 

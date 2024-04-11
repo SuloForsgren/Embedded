@@ -40,12 +40,18 @@ bool test_LoRa() {
         response[response_length] = '\0';
         printf("Response: %s\n", response);
 
-        return true;
+        if (strstr(response, "OK") != NULL) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
     else {
         return false;
     }
 }
+
 
 
 int main(void)

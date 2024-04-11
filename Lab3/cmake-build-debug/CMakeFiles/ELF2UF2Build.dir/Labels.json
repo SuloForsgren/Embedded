@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/CMakeFiles/ELF2UF2Build"
+			"file" : "/home/sulo/paska/Embedded/Lab3/cmake-build-debug/CMakeFiles/ELF2UF2Build"
 		},
 		{
-			"file" : "H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/CMakeFiles/ELF2UF2Build.rule"
+			"file" : "/home/sulo/paska/Embedded/Lab3/cmake-build-debug/CMakeFiles/ELF2UF2Build.rule"
 		},
 		{
-			"file" : "H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/CMakeFiles/ELF2UF2Build-complete.rule"
+			"file" : "/home/sulo/paska/Embedded/Lab3/cmake-build-debug/CMakeFiles/ELF2UF2Build-complete.rule"
 		},
 		{
-			"file" : "H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
+			"file" : "/home/sulo/paska/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
 		},
 		{
-			"file" : "H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
+			"file" : "/home/sulo/paska/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
 		},
 		{
-			"file" : "H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
+			"file" : "/home/sulo/paska/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
 		},
 		{
-			"file" : "H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
+			"file" : "/home/sulo/paska/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
 		},
 		{
-			"file" : "H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
+			"file" : "/home/sulo/paska/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
 		},
 		{
-			"file" : "H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
+			"file" : "/home/sulo/paska/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
 		},
 		{
-			"file" : "H:/Metropolia/IOT/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
+			"file" : "/home/sulo/paska/Embedded/Lab3/cmake-build-debug/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
 		}
 	],
 	"target" : 

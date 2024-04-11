@@ -1,1 +1,1 @@
-cmd='H:/Clion/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe;-DCMAKE_MAKE_PROGRAM:FILEPATH=H:/Clion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'
+cmd='/home/sulo/clion/clion-2023.3.4/bin/cmake/linux/x64/bin/cmake;-DCMAKE_MAKE_PROGRAM:FILEPATH=/home/sulo/clion/clion-2023.3.4/bin/ninja/linux/x64/ninja;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

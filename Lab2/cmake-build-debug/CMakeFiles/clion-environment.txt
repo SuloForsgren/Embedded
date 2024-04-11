@@ -1,4 +1,3 @@
-ToolSet: 12.0 w64 (local)@H:\MSYS2\mingw64
-Options: 
+ToolSet: 1.0 (local)Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=H:/Clion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe
+Options:-DCMAKE_MAKE_PROGRAM=/home/sulo/clion/clion-2023.3.4/bin/ninja/linux/x64/ninja
