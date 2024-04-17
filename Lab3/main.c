@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
-#include <ctype.h>
+#include <stdbool.h>
+#include <string.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "hardware/uart.h"
@@ -13,19 +13,21 @@
 #define UART_TX_PIN 4
 #define UART_RX_PIN 5
 
-#define STR_LEN (80)
-#define LORA_ID_LEN (16)
+#define STR_LEN 80
 #define UART_TIMEOUT_US 500000
 
-typedef enum LoRaState {
-    IDLE,
-    CONNECTING,
-    READING_FIRMWARE,
-    READING_DEVEUI,
+typedef enum lora_state {
+    TESTING,
     ERROR
-} LoRaState;
+}lora_state;
 
-bool test_LoRa() {
+void initialize_uart() {
+    uart_init(UART_ID, BAUD_RATE);
+    gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
+    gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
+}
+
+bool test_LoRa(lora_state *current_state) {
     char *send_AT = "AT\r\n";
     if (uart_is_writable(UART_ID)) {
         uart_write_blocking(UART_ID, (uint8_t *)send_AT, strlen(send_AT));
@@ -48,58 +50,32 @@ bool test_LoRa() {
         }
     }
     else {
+        *current_state = ERROR;
         return false;
     }
 }
 
-
-
-int main(void)
-{
+int main() {
     stdio_init_all();
-    printf("Booting...\n");
+    printf("Waiting for user to press SW_0...\n");
 
     gpio_init(SW_0);
     gpio_set_dir(SW_0, GPIO_IN);
     gpio_pull_up(SW_0);
 
-    uart_init(UART_ID, BAUD_RATE);
+    initialize_uart();
+    lora_state current_state = TESTING;
 
-    gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
-    gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
-
-    LoRaState state = IDLE;
-
-    while(true) {
+    while (true) {
         if (!gpio_get(SW_0)) {
-            if (state == IDLE) {
-                printf("State Connecting..\n");
-                sleep_ms(200);
-                if (test_LoRa()) {
-                    state = CONNECTING;
-                }
-                else {
-                    printf("Error!");
-                    return 1;
-                }
+            if (test_LoRa(&current_state) && current_state == TESTING) {
+                printf("LoRa communication successful!\n");
             }
-            else if (state == CONNECTING) {
-                printf("State READING_FIRMWARE..\n");
-                sleep_ms(200);
-                state = READING_FIRMWARE;
-            }
-            else if (state == READING_FIRMWARE) {
-                printf("State READING_DEVEUI..\n");
-                sleep_ms(200);
-                state = READING_DEVEUI;
-            }
-            else {
-                printf("Errors\n");
-                state = ERROR;
-                return 1;
+            else if (current_state == ERROR){
+                printf("Error communicating with LoRa module.\n");
             }
         }
+        sleep_ms(100);
     }
-
     return 0;
 }
