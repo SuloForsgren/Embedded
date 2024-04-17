@@ -25,20 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="421d6283-71a0-40ae-ad16-9ea49f4219aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab2/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/uart.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/uart.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/uart.dis" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/uart.dis" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/uart.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/uart.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/uart.elf.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/uart.elf.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/uart.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/uart.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/uart.uf2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/uart.uf2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pico/pico-sdk/lib/btstack" beforeDir="false" afterPath="$PROJECT_DIR$/../../pico/pico-sdk/lib/btstack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pico/pico-sdk/lib/btstack/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pico/pico-sdk/lib/btstack/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
@@ -6481,7 +6468,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712820504907</updated>
       <workItem from="1712820506505" duration="2207000" />
-      <workItem from="1713357273054" duration="5179000" />
+      <workItem from="1713357273054" duration="5676000" />
     </task>
     <servers />
   </component>
