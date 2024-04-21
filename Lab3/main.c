@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
+#include <stdint.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "hardware/uart.h"
@@ -17,14 +18,12 @@
 #define MAX_RETRIES 5
 #define FIRMWARE_LEN 30
 
-
 typedef enum lora_state {
     DO_NOTHING,
     TEST_CONNECTION,
     FIRMWARE,
     ERROR
-}
-lora_state;
+} lora_state;
 
 void initialize_uart() {
     uart_init(UART_ID, BAUD_RATE);
@@ -32,20 +31,15 @@ void initialize_uart() {
     gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 }
 
-void test_LoRa(lora_state *current_state) {
-    char *send_AT = "AT\r\n";
-    int retries = 0;
-
-    while (retries < MAX_RETRIES) {
-        printf("Retry number %d\n", retries);
+bool wait_for_response(int max_attempts, char *send_AT, int *retries, char response[STR_LEN]) {
+    uint32_t start_time = millis();
+    while (*retries < max_attempts) {
+        printf("Retry number %d\n", *retries);
         if (uart_is_writable(UART_ID)) {
             uart_write_blocking(UART_ID, (uint8_t *) send_AT, strlen(send_AT));
 
-            sleep_ms(UART_TIMEOUT_MS);
-
-            char response[STR_LEN];
             size_t response_length = 0;
-
+            sleep_ms(500);
             while (uart_is_readable(UART_ID)) {
                 response[response_length++] = uart_getc(UART_ID);
                 if (response_length >= STR_LEN - 1) {
@@ -53,25 +47,34 @@ void test_LoRa(lora_state *current_state) {
                 }
             }
             response[response_length] = '\0';
-            printf("Response: %s", response);
+            printf("Response: %s\n", response);
 
             if (strstr(response, "OK") != NULL) {
-                *current_state = FIRMWARE;
-                break;
+                return true;
             }
-            else {
-                *current_state = ERROR;
-            }
+        } else {
+            return false;
         }
-        else {
-            *current_state = ERROR;
-        }
-        retries += 1;
+        (*retries)++;
+    }
+    return false;
+}
+
+void test_LoRa(lora_state *current_state) {
+    char send_AT[] = "AT\r\n";
+    char response[STR_LEN];
+    int retries = 0;
+
+    if (wait_for_response(MAX_RETRIES, send_AT, &retries, response)) {
+        *current_state = FIRMWARE;
+    }
+    else {
+        *current_state = ERROR;
     }
 }
 
 bool get_firmware(lora_state *current_state, char firmware[FIRMWARE_LEN]) {
-    char *request = "AT+VERSION\r\n";
+    char *request = "AT+VER\r\n";
 
     if (uart_is_writable(UART_ID)) {
         uart_write_blocking(UART_ID, (uint8_t *)request, strlen(request));
@@ -90,9 +93,7 @@ bool get_firmware(lora_state *current_state, char firmware[FIRMWARE_LEN]) {
         response[response_length] = '\0';
         printf("Response: %s\n", response);
 
-        // Check if response contains version information
         if (strstr(response, "OK") != NULL) {
-            // Extract version information from the response
             char *version_start = strstr(response, "VERSION:");
             if (version_start != NULL) {
                 version_start += strlen("VERSION:");
@@ -111,10 +112,9 @@ void firmware_init(lora_state *current_state) {
         printf("Firmware version: %s", firmware);
     }
     else {
-        printf("Module stopped responding!");
+        printf("Module stopped responding!\n");
         *current_state = ERROR;
     }
-
 }
 
 int main() {
