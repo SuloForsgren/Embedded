@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
-#include <stdint.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "hardware/uart.h"
@@ -14,9 +13,7 @@
 #define UART_RX_PIN 5
 
 #define STR_LEN 80
-#define UART_TIMEOUT_MS 500
-#define MAX_RETRIES 5
-#define FIRMWARE_LEN 30
+#define UART_TIMEOUT_US 500000
 
 typedef enum lora_state {
     DO_NOTHING,
@@ -31,41 +28,29 @@ void initialize_uart() {
     gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 }
 
-bool wait_for_response(int max_attempts, char *send_AT, int *retries, char response[STR_LEN]) {
-    uint32_t start_time = millis();
-    while (*retries < max_attempts) {
-        printf("Retry number %d\n", *retries);
-        if (uart_is_writable(UART_ID)) {
-            uart_write_blocking(UART_ID, (uint8_t *) send_AT, strlen(send_AT));
+bool send_command(const char *command) {
+    uart_puts(UART_ID, command);
 
-            size_t response_length = 0;
-            sleep_ms(500);
-            while (uart_is_readable(UART_ID)) {
-                response[response_length++] = uart_getc(UART_ID);
-                if (response_length >= STR_LEN - 1) {
-                    break;
-                }
-            }
-            response[response_length] = '\0';
-            printf("Response: %s\n", response);
+    uint32_t start_time = time_us_32();
+    char response[STR_LEN];
+    size_t response_length = 0;
 
-            if (strstr(response, "OK") != NULL) {
-                return true;
+    while ((time_us_32() - start_time) < UART_TIMEOUT_US) {
+        if (uart_is_readable(UART_ID)) {
+            response[response_length++] = uart_getc(UART_ID);
+            if (response_length >= STR_LEN - 1) {
+                break;
             }
-        } else {
-            return false;
         }
-        (*retries)++;
     }
-    return false;
+    response[response_length] = '\0';
+    printf("Response: %s", response);
+
+    return (strstr(response, "OK") != NULL);
 }
 
 void test_LoRa(lora_state *current_state) {
-    char send_AT[] = "AT\r\n";
-    char response[STR_LEN];
-    int retries = 0;
-
-    if (wait_for_response(MAX_RETRIES, send_AT, &retries, response)) {
+    if (send_command("AT\r\n")) {
         *current_state = FIRMWARE;
     }
     else {
@@ -73,46 +58,10 @@ void test_LoRa(lora_state *current_state) {
     }
 }
 
-bool get_firmware(lora_state *current_state, char firmware[FIRMWARE_LEN]) {
-    char *request = "AT+VER\r\n";
-
-    if (uart_is_writable(UART_ID)) {
-        uart_write_blocking(UART_ID, (uint8_t *)request, strlen(request));
-
-        sleep_ms(UART_TIMEOUT_MS);
-
-        char response[STR_LEN];
-        size_t response_length = 0;
-
-        while (uart_is_readable(UART_ID)) {
-            response[response_length++] = uart_getc(UART_ID);
-            if (response_length >= STR_LEN - 1) {
-                break;
-            }
-        }
-        response[response_length] = '\0';
-        printf("Response: %s\n", response);
-
-        if (strstr(response, "OK") != NULL) {
-            char *version_start = strstr(response, "VERSION:");
-            if (version_start != NULL) {
-                version_start += strlen("VERSION:");
-                strcpy(firmware, version_start);
-                return true;
-            }
-        }
-    }
-    *current_state = ERROR;
-    return false;
-}
-
 void firmware_init(lora_state *current_state) {
-    char firmware[FIRMWARE_LEN];
-    if (get_firmware(current_state, firmware)) {
-        printf("Firmware version: %s", firmware);
-    }
-    else {
-        printf("Module stopped responding!\n");
+    if (send_command("AT+VER\r\n")) {
+        *current_state = FIRMWARE;
+    } else {
         *current_state = ERROR;
     }
 }
@@ -139,19 +88,21 @@ int main() {
 
             case TEST_CONNECTION:
                 test_LoRa(&current_state);
-                printf("Connected to LoRa module!\n");
+                if (current_state == FIRMWARE) {
+                    printf("Connected to LoRa module!\n");
+                }
                 break;
 
             case FIRMWARE:
                 firmware_init(&current_state);
-                current_state = ERROR;
                 break;
 
             case ERROR:
-                printf("module not responding\n");
+                printf("Module not responding\n");
                 current_state = DO_NOTHING;
                 break;
         }
         sleep_ms(100);
     }
+    return 0;
 }
