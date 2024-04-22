@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include <ctype.h> // Include for isxdigit and tolower
+#include <ctype.h>
 #include <string.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
@@ -15,7 +15,7 @@
 
 #define STR_LEN 80
 #define UART_TIMEOUT_US 500000
-#define LORA_ID_LEN 16 // Assuming LoRa device ID length
+#define LORA_ID_LEN 16
 
 typedef enum lora_state {
     DO_NOTHING,
@@ -59,12 +59,8 @@ bool send_command(const char *command, bool print_response) {
     }
 
     response[response_length] = '\0';
-    if (!print_response) {
+    if (print_response) {
         printf("%s\n", response);
-        return (strstr(response, "OK") != NULL);
-    }
-    else if (print_response) {
-        
     }
     return (strstr(response, "VER") != NULL);
 }
@@ -127,7 +123,7 @@ void test_LoRa(lora_state *current_state) {
     }
 }
 
-void firmware_init(lora_state *current_state) {
+bool firmware_init(lora_state *current_state) {
     if (send_command("AT+VER\r\n", true)) {
         *current_state = DEV;
     }
@@ -181,7 +177,7 @@ int main() {
                 break;
 
             case ERROR:
-                printf("Module not responding");
+                printf("Module not responding\n");
                 current_state = DO_NOTHING;
                 break;
         }
