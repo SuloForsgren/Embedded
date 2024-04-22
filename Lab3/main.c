@@ -60,7 +60,7 @@ bool send_command(const char *command, bool print_response) {
 
     response[response_length] = '\0';
     if (print_response) {
-        printf("%s\n", response);
+        printf("%s", response);
     }
     return (strstr(response, "VER") != NULL);
 }
@@ -94,8 +94,8 @@ bool lora_get_deveui(uart_inst_t *uart, char *lora_deveui) {
                 char received_char = uart_getc(uart);
                 response[response_length++] = received_char;
 
-                if (received_char == '\n') { // Check for end of line
-                    response[response_length] = '\0'; // Null-terminate the string
+                if (received_char == '\n') {
+                    response[response_length] = '\0';
                     lora_fmt_deveui(response, lora_deveui);
                     return true;
                 }
@@ -111,7 +111,7 @@ bool lora_get_deveui(uart_inst_t *uart, char *lora_deveui) {
         }
     }
 
-    return false; // Return false if no response or invalid response format
+    return false;
 }
 
 void test_LoRa(lora_state *current_state) {
@@ -144,44 +144,48 @@ int main() {
     lora_state current_state = DO_NOTHING;
 
     char lora_deveui[LORA_ID_LEN + 1];
+    bool button_held = false;
 
     while (true) {
-        switch (current_state) {
-            case DO_NOTHING:
-                if (!gpio_get(SW_0)) {
-                    sleep_ms(100);
-                    current_state = TEST_CONNECTION;
-                }
-                break;
+            switch (current_state) {
+                case DO_NOTHING:
+                    if (!gpio_get(SW_0) && !button_held) {
+                        sleep_ms(100);
+                        button_held = true;
+                        current_state = TEST_CONNECTION;
+                    }
+                    else if (gpio_get(SW_0) && button_held) {
+                        button_held = false;
+                    }
+                    break;
 
-            case TEST_CONNECTION:
-                test_LoRa(&current_state);
-                if (current_state == FIRMWARE) {
-                    printf("Connected to LoRa module!");
-                }
-                break;
+                case TEST_CONNECTION:
+                    test_LoRa(&current_state);
+                    if (current_state == FIRMWARE) {
+                        printf("Connected to LoRa module!");
+                    }
+                    break;
 
-            case FIRMWARE:
-                firmware_init(&current_state);
-                break;
+                case FIRMWARE:
+                    firmware_init(&current_state);
+                    break;
 
-            case DEV:
-                if (lora_get_deveui(UART_ID, lora_deveui)) {
-                    printf("LoRa DevEUI: %s\n", lora_deveui);
+                case DEV:
+                    if (lora_get_deveui(UART_ID, lora_deveui)) {
+                        printf("LoRa DevEUI: %s\n", lora_deveui);
+                        current_state = DO_NOTHING;
+                    } else {
+                        printf("Failed to get LoRa DevEUI\n");
+                        current_state = ERROR;
+                    }
+                    break;
+
+                case ERROR:
+                    printf("Module not responding\n");
                     current_state = DO_NOTHING;
-                }
-                else {
-                    printf("Failed to get LoRa DevEUI\n");
-                    current_state = ERROR;
-                }
-                break;
-
-            case ERROR:
-                printf("Module not responding\n");
-                current_state = DO_NOTHING;
-                break;
-        }
-        sleep_ms(100);
+                    break;
+            }
+            sleep_ms(100);
     }
     return 0;
 }
