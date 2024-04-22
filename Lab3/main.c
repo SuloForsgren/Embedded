@@ -28,29 +28,43 @@ void initialize_uart() {
     gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 }
 
-bool send_command(const char *command) {
+bool send_command(const char *command, bool print_response) {
     uart_puts(UART_ID, command);
+    bool found = false;
 
     uint32_t start_time = time_us_32();
     char response[STR_LEN];
     size_t response_length = 0;
 
-    while ((time_us_32() - start_time) < UART_TIMEOUT_US) {
-        if (uart_is_readable(UART_ID)) {
-            response[response_length++] = uart_getc(UART_ID);
-            if (response_length >= STR_LEN - 1) {
-                break;
+    for (int i = 0; i < 5; i++) {
+        while ((time_us_32() - start_time) < UART_TIMEOUT_US) {
+            if (uart_is_readable(UART_ID)) {
+                response[response_length++] = uart_getc(UART_ID);
+                if (response_length >= STR_LEN - 1) {
+                    found = true;
+                    break;
+                }
+                if (strstr(response, "OK") != NULL) {
+                    found = true;
+                    break;
+                }
             }
         }
+        if (found) {
+            break;
+        }
     }
-    response[response_length] = '\0';
-    printf("Response: %s", response);
 
+    response[response_length] = '\0';
+    if (print_response) {
+        printf("%s\n", response);
+    }
     return (strstr(response, "OK") != NULL);
 }
 
+
 void test_LoRa(lora_state *current_state) {
-    if (send_command("AT\r\n")) {
+    if (send_command("AT\r\n", false)) {
         *current_state = FIRMWARE;
     }
     else {
@@ -59,9 +73,10 @@ void test_LoRa(lora_state *current_state) {
 }
 
 void firmware_init(lora_state *current_state) {
-    if (send_command("AT+VER\r\n")) {
+    if (send_command("AT+VER\r\n", true)) {
         *current_state = FIRMWARE;
-    } else {
+    }
+    else {
         *current_state = ERROR;
     }
 }
@@ -89,7 +104,7 @@ int main() {
             case TEST_CONNECTION:
                 test_LoRa(&current_state);
                 if (current_state == FIRMWARE) {
-                    printf("Connected to LoRa module!\n");
+                    printf("Connected to LoRa module!");
                 }
                 break;
 
@@ -98,7 +113,7 @@ int main() {
                 break;
 
             case ERROR:
-                printf("Module not responding\n");
+                printf("Module not responding");
                 current_state = DO_NOTHING;
                 break;
         }
