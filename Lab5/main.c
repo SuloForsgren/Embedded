@@ -1,89 +1,127 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include "pico/stdlib.h"
-#include "hardware/pwm.h"
+#include "hardware/gpio.h"
+#include "hardware/uart.h"
 
-int main() {
-    const uint led_pin1 = 20;
-    const uint led_pin2 = 21;
-    const uint led_pin3 = 22;
-    const uint button_dim_down = 7;
-    const uint button_toggle = 8;
-    const uint button_dim_up = 9;
-    bool led_toggle = true;
-    bool button_pressed = false;
+#define IN1 2
+#define IN2 3
+#define IN3 6
+#define IN4 13
+#define OPTO_FORK 28
 
-    uint slice_led1 = pwm_gpio_to_slice_num(20);
-    uint slice_led2 = pwm_gpio_to_slice_num(21);
-    uint slice_led3 = pwm_gpio_to_slice_num(22);
+#define UART_ID uart0
 
-    pwm_gpio_to_channel(20);
-    pwm_gpio_to_channel(21);
-    pwm_gpio_to_channel(22);
+void init_gpio(void) {
+    gpio_init(OPTO_FORK);
+    gpio_set_dir(OPTO_FORK, GPIO_IN);
+    gpio_pull_up(OPTO_FORK);
 
-    pwm_set_enabled(slice_led1, false);
-    pwm_set_enabled(slice_led2, false);
-    pwm_set_enabled(slice_led3, false);
+    gpio_init(IN1);
+    gpio_set_dir(IN1, GPIO_OUT);
 
-    pwm_config config = pwm_get_default_config();
-    pwm_config_set_clkdiv_int(&config, 125);
-    pwm_config_set_wrap(&config,1000);
+    gpio_init(IN2);
+    gpio_set_dir(IN2, GPIO_OUT);
 
-    pwm_init(slice_led1,&config,false);
-    pwm_init(slice_led2,&config,false);
-    pwm_init(slice_led3,&config,false);
+    gpio_init(IN3);
+    gpio_set_dir(IN3, GPIO_OUT);
 
-    pwm_set_chan_level(slice_led1, PWM_CHAN_A, 500);
-    pwm_set_chan_level(slice_led2, PWM_CHAN_A, 500);
-    pwm_set_chan_level(slice_led3, PWM_CHAN_A, 500);
+    gpio_init(IN4);
+    gpio_set_dir(IN4, GPIO_OUT);
+}
 
-    gpio_set_function(led_pin1, GPIO_FUNC_PWM);
-    gpio_set_function(led_pin2, GPIO_FUNC_PWM);
-    gpio_set_function(led_pin3, GPIO_FUNC_PWM);
+bool is_opto_fork_triggered(void) {
+    return !gpio_get(OPTO_FORK);
+}
 
-    pwm_set_enabled(slice_led1, true);
-    pwm_set_enabled(slice_led2, true);
-    pwm_set_enabled(slice_led3, true);
+void turn_off(void) {
+    gpio_put(IN1, 0);
+    gpio_put(IN2, 0);
+    gpio_put(IN3, 0);
+    gpio_put(IN4, 0);
+    sleep_ms(1);
+}
 
-    gpio_init(button_dim_down); // Initialize the GPIO pins before setting direction
-    gpio_init(button_dim_up);
-    gpio_init(button_toggle);
+void calibrate(bool *calibrated, uint8_t steps[][4], uint8_t step_count) {
+    if (!(*calibrated)) {
+        *calibrated = true;
+        printf("Calibrating...\n");
+        int i = 0;
+        int rounds = 0;
 
-    gpio_pull_up(button_dim_down); // Pull up the GPIO pins
-    gpio_pull_up(button_dim_up);
-    gpio_pull_up(button_toggle);
-
-    gpio_set_dir(button_dim_down, GPIO_IN); // Set the GPIO pins as inputs
-    gpio_set_dir(button_dim_up, GPIO_IN);
-    gpio_set_dir(button_toggle, GPIO_IN);
-    stdio_init_all();
-
-    while(1) {
-        if (!gpio_get(button_dim_down)) {
-            printf("Dimming down...\n");
+        for (int j = 0; j < 900; j++) {
+            gpio_put(IN1, steps[i % step_count][0]);
+            gpio_put(IN2, steps[i % step_count][1]);
+            gpio_put(IN3, steps[i % step_count][2]);
+            gpio_put(IN4, steps[i % step_count][3]);
+            sleep_ms(1); // Adjust the delay as needed
+            i++;
         }
-        else if (!gpio_get(button_dim_up)) {
-            printf("Dimming up... \n");
-        }
-        else if (!gpio_get(button_toggle) && !button_pressed) {
-            button_pressed = true;
-            if (!led_toggle) {
-                printf("Leds on...\n");
-                pwm_set_chan_level(slice_led1, PWM_CHAN_A, 500);
-                pwm_set_chan_level(slice_led2, PWM_CHAN_A, 500);
-                pwm_set_chan_level(slice_led3, PWM_CHAN_A, 500);
-                led_toggle = true;
+
+
+        while(!is_opto_fork_triggered() && rounds <= 3) {
+            gpio_put(IN1, steps[i % step_count][0]);
+            gpio_put(IN2, steps[i % step_count][1]);
+            gpio_put(IN3, steps[i % step_count][2]);
+            gpio_put(IN4, steps[i % step_count][3]);
+
+            if (is_opto_fork_triggered()) {
+                rounds++;
             }
-            else {
-                printf("Leds off...\n");
-                led_toggle = false;
-                pwm_set_chan_level(slice_led1, PWM_CHAN_A, 0);
-                pwm_set_chan_level(slice_led2, PWM_CHAN_A, 0);
-                pwm_set_chan_level(slice_led3, PWM_CHAN_A, 0);
-            }
+
+            sleep_ms(1);
+            i++;
         }
-        else if (gpio_get(button_toggle) && button_pressed) {
-            button_pressed = false;
-        }
-        sleep_ms(100);
+        printf("Calibration complete.\n");
+        turn_off();
     }
+    else {
+        printf("Motor already calibrated.\n");
+    }
+}
+
+
+void print_status(bool calibrated) {
+    if (calibrated) {
+        printf("Motor is calibrated.\n");
+    } else {
+        printf("Motor is not calibrated. Calibrate motor first.\n");
+    }
+}
+
+int main(void) {
+    stdio_init_all();
+    printf("Booting...\n");
+
+    init_gpio();
+
+    uint8_t steps[][4] = {
+            {1, 0, 0, 0},
+            {1, 1, 0, 0},
+            {0, 1, 0, 0},
+            {0, 1, 1, 0},
+            {0, 0, 1, 0},
+            {0, 0, 1, 1},
+            {0, 0, 0, 1},
+            {1, 0, 0, 1}
+    };
+
+    uint8_t step_count = sizeof(steps) / sizeof(steps[0]);
+
+    bool calibrated = false;
+
+    while (true) {
+        char command[10];
+        printf("Enter command ('status', 'calib', 'run N'): ");
+        scanf("%s", command);
+
+        if (strcmp(command, "calib") == 0) {
+            calibrate(&calibrated, steps, step_count);
+        } else if (strcmp(command, "status") == 0) {
+            print_status(calibrated);
+        }
+    }
+
+    return 0;
 }
