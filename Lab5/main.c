@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "hardware/uart.h"
@@ -43,51 +44,109 @@ void turn_off(void) {
     sleep_ms(1);
 }
 
-void calibrate(bool *calibrated, uint8_t steps[][4], uint8_t step_count) {
-    if (!(*calibrated)) {
-        *calibrated = true;
-        printf("Calibrating...\n");
-        int i = 0;
-        int rounds = 0;
-
-        for (int j = 0; j < 900; j++) {
-            gpio_put(IN1, steps[i % step_count][0]);
-            gpio_put(IN2, steps[i % step_count][1]);
-            gpio_put(IN3, steps[i % step_count][2]);
-            gpio_put(IN4, steps[i % step_count][3]);
-            sleep_ms(1); // Adjust the delay as needed
-            i++;
-        }
-
-
-        while(!is_opto_fork_triggered() && rounds <= 3) {
-            gpio_put(IN1, steps[i % step_count][0]);
-            gpio_put(IN2, steps[i % step_count][1]);
-            gpio_put(IN3, steps[i % step_count][2]);
-            gpio_put(IN4, steps[i % step_count][3]);
-
-            if (is_opto_fork_triggered()) {
-                rounds++;
-            }
-
+void go_to_middle(uint8_t (*steps)[4], uint8_t step_count, uint16_t steps_per_rev, uint16_t steps_to_middle)
+{
+    uint16_t counter = 0;
+    while(counter <= (steps_per_rev + steps_to_middle)) {
+        for(uint16_t i = 0; i < step_count; i++) {
+            gpio_put(IN1, steps[i][0]);
+            gpio_put(IN2, steps[i][1]);
+            gpio_put(IN3, steps[i][2]);
+            gpio_put(IN4, steps[i][3]);
             sleep_ms(1);
-            i++;
+            ++counter;
         }
-        printf("Calibration complete.\n");
-        turn_off();
-    }
-    else {
-        printf("Motor already calibrated.\n");
     }
 }
 
+void go_to_opto_fork(uint8_t (*steps)[4], uint8_t step_count)
+{
+    bool opto_fork_state = gpio_get(OPTO_FORK);
+    bool last_opto_fork_state = opto_fork_state;
 
-void print_status(bool calibrated) {
-    if (calibrated) {
-        printf("Motor is calibrated.\n");
-    } else {
-        printf("Motor is not calibrated. Calibrate motor first.\n");
+    while(true) {
+        opto_fork_state = gpio_get(OPTO_FORK);
+        if(!opto_fork_state && last_opto_fork_state) {
+            break;
+        }
+
+        for(uint16_t i = 0; i < step_count; i++) {
+            gpio_put(IN1, steps[i][0]);
+            gpio_put(IN2, steps[i][1]);
+            gpio_put(IN3, steps[i][2]);
+            gpio_put(IN4, steps[i][3]);
+            sleep_ms(1);
+        }
+
+        last_opto_fork_state = opto_fork_state;
     }
+    turn_off();
+    printf("At opto fork.\n");
+}
+
+void calib(uint8_t (*steps)[4], uint8_t step_count, bool *calibrated, uint16_t *steps_per_rev, uint16_t *steps_to_middle)
+{
+    go_to_opto_fork(steps, step_count);
+
+    uint32_t steps_outside_opto_fork = 0;
+    uint32_t steps_at_opto_fork = 0;
+
+    uint8_t revs = 0;
+
+    while(revs != 3) {
+        while(!gpio_get(OPTO_FORK)) {
+            for(uint16_t i = 0; i < step_count; i++) {
+                gpio_put(IN1, steps[i][0]);
+                gpio_put(IN2, steps[i][1]);
+                gpio_put(IN3, steps[i][2]);
+                gpio_put(IN4, steps[i][3]);
+                sleep_ms(1);
+                ++steps_at_opto_fork;
+            }
+        }
+        while(gpio_get(OPTO_FORK)) {
+            for(uint16_t i = 0; i < step_count; i++) {
+                gpio_put(IN1, steps[i][0]);
+                gpio_put(IN2, steps[i][1]);
+                gpio_put(IN3, steps[i][2]);
+                gpio_put(IN4, steps[i][3]);
+                sleep_ms(1);
+                ++steps_outside_opto_fork;
+            }
+        }
+        ++revs;
+    }
+    *steps_to_middle = (steps_at_opto_fork / 3) / 2;
+    *steps_per_rev = (steps_at_opto_fork + steps_outside_opto_fork) / 3;
+    *calibrated = true;
+    printf("Calibrated. Going to middle.\n");
+    turn_off();
+}
+
+void status(bool calibrated, uint16_t steps_per_rev)
+{
+    if(calibrated) {
+        printf("Motor is calibrated.\n");
+        printf("Number of steps per revolution: %d\n", steps_per_rev);
+    } else {
+        printf("Motor is not calibrated.\n");
+        printf("Number of steps per revolution not available.\n");
+    }
+}
+
+void drop_pills(uint8_t (*steps)[4], uint8_t step_count, uint16_t steps_per_rev, uint8_t n) {
+    uint32_t steps_to_run;
+    steps_to_run = steps_per_rev / 8 * n;
+
+    for(uint32_t i = 0; i < steps_to_run; i++) {
+        gpio_put(IN1, steps[i % step_count][0]);
+        gpio_put(IN2, steps[i % step_count][1]);
+        gpio_put(IN3, steps[i % step_count][2]);
+        gpio_put(IN4, steps[i % step_count][3]);
+        sleep_ms(1);
+    }
+
+    turn_off();
 }
 
 int main(void) {
@@ -110,18 +169,32 @@ int main(void) {
     uint8_t step_count = sizeof(steps) / sizeof(steps[0]);
 
     bool calibrated = false;
+    uint16_t steps_per_rev;
+    uint16_t steps_to_middle;
 
     while (true) {
         char command[10];
-        printf("Enter command ('status', 'calib', 'run N'): ");
         scanf("%s", command);
 
         if (strcmp(command, "calib") == 0) {
-            calibrate(&calibrated, steps, step_count);
-        } else if (strcmp(command, "status") == 0) {
-            print_status(calibrated);
+            calib(steps, step_count, &calibrated, &steps_per_rev, &steps_to_middle);
+            go_to_middle(steps, step_count, steps_per_rev, steps_to_middle);
+        }
+        else if (strcmp(command, "status") == 0) {
+            status(calibrated, steps_per_rev);
+        }
+        else if(strncmp(command, "run", 3) == 0) {
+            if(calibrated) {
+                uint8_t n = 0;
+                if(strlen(command) >= 4) {
+                    n = atoi(command + 4);
+                }
+                drop_pills(steps, step_count, steps_per_rev, n);
+            }
+            else {
+                printf("Calibrate motor first.\n");
+            }
         }
     }
-
     return 0;
 }
