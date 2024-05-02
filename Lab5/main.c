@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <ctype.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "hardware/uart.h"
@@ -11,8 +10,6 @@
 #define IN3 6
 #define IN4 13
 #define OPTO_FORK 28
-
-#define UART_ID uart0
 
 void init_gpio(void) {
     gpio_init(OPTO_FORK);
@@ -30,10 +27,6 @@ void init_gpio(void) {
 
     gpio_init(IN4);
     gpio_set_dir(IN4, GPIO_OUT);
-}
-
-bool is_opto_fork_triggered(void) {
-    return !gpio_get(OPTO_FORK);
 }
 
 void turn_off(void) {
@@ -134,9 +127,14 @@ void status(bool calibrated, uint16_t steps_per_rev)
     }
 }
 
-void drop_pills(uint8_t (*steps)[4], uint8_t step_count, uint16_t steps_per_rev, uint8_t n) {
+void drop_pills(uint8_t (*steps)[4], uint8_t step_count, uint16_t steps_per_rev, uint8_t n)
+{
     uint32_t steps_to_run;
-    steps_to_run = steps_per_rev / 8 * n;
+    if(n == 0 || n == 8) {
+        steps_to_run = steps_per_rev;
+    } else {
+        steps_to_run = steps_per_rev / 8 * n;
+    }
 
     for(uint32_t i = 0; i < steps_to_run; i++) {
         gpio_put(IN1, steps[i % step_count][0]);
@@ -183,16 +181,13 @@ int main(void) {
         else if (strcmp(command, "status") == 0) {
             status(calibrated, steps_per_rev);
         }
-        else if(strncmp(command, "run", 3) == 0) {
-            if(calibrated) {
+        else if (strncmp(command, "run", 3) == 0) {
+            if (calibrated) {
                 uint8_t n = 0;
-                if(strlen(command) >= 4) {
-                    n = atoi(command + 4);
+                if (strlen(command) > 3) {
+                    n = atoi(command + 3);
                 }
                 drop_pills(steps, step_count, steps_per_rev, n);
-            }
-            else {
-                printf("Calibrate motor first.\n");
             }
         }
     }
