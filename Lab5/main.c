@@ -172,20 +172,21 @@ int main(void) {
 
     while (true) {
         char command[10];
-        scanf("%s", command);
+        printf("Enter command:\n");
+        fgets(command, sizeof(command), stdin);
 
-        if (strcmp(command, "calib") == 0) {
+        if (strncmp(command, "calib", 5) == 0) {
             calib(steps, step_count, &calibrated, &steps_per_rev, &steps_to_middle);
             go_to_middle(steps, step_count, steps_per_rev, steps_to_middle);
         }
-        else if (strcmp(command, "status") == 0) {
+        else if (strncmp(command, "status", 6) == 0) {
             status(calibrated, steps_per_rev);
         }
         else if (strncmp(command, "run", 3) == 0) {
             if (calibrated) {
                 uint8_t n = 0;
-                if (strlen(command) > 3) {
-                    n = atoi(command + 3);
+                if (strlen(command) > 4) {
+                    n = atoi(command + 4);
                 }
                 drop_pills(steps, step_count, steps_per_rev, n);
             }
